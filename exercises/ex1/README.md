@@ -74,6 +74,59 @@ Designing and Developing AppGyver Extensions
 <img width="1494" alt="196343633-48aadb73-2d9a-4216-9842-a627a11c584f" src="https://user-images.githubusercontent.com/114897342/196704401-5b123ffa-c5b9-42f2-be5c-d3b5ad9528b3.png">
 
 
+12. Click on S4HANACLUD_SO AND S4HANACLOUD_CUSTRETURNS
+
+<img width="1501" alt="196344105-1f9e788d-1e04-460b-b3fd-72ad09339758" src="https://user-images.githubusercontent.com/114897342/196704683-d7ad35e7-5de5-43aa-ad9a-399a6ce54869.png">
+
+<img width="1502" alt="196344152-cd6dbb6f-7d37-4bea-ace1-c8909159c5a7" src="https://user-images.githubusercontent.com/114897342/196704914-41fa6067-51f7-4cd2-8aa4-df4fff5669ad.png">
+
+
+13. Click on UI Canvas and go to Market Place
+![196349784-093f4794-cbdf-4865-8757-4579e5f1d03a](https://user-images.githubusercontent.com/114897342/196705212-8bcab432-dc56-45fd-abb5-dab8e01daeb6.png)
+
+14. Search for "Soft tabs"
+
+![196350050-989661cc-0843-47f1-a9c4-d64f798beb43](https://user-images.githubusercontent.com/114897342/196705386-4cf67d32-9d57-4ebd-b8a9-3258e76e5d51.png)
+
+15. Click on the "Soft tab" and INSTALL
+![196350230-c1624871-1728-4c73-8015-ce8f8ea6736f](https://user-images.githubusercontent.com/114897342/196705504-45b7eb15-51d4-4fc0-be03-0cdffc61c0de.png)
+
+16. You can now see "Soft tabs" in the Installed
+![196350825-12e6f390-cd16-4130-af24-d4a338ecd389](https://user-images.githubusercontent.com/114897342/196705835-111d09a2-4c15-404f-99f6-3d73ed776a37.png)
+
+17. Remove "Headline" and Text "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+![196351162-d74b5473-a782-4be2-96c5-edcf9a1d1454](https://user-images.githubusercontent.com/114897342/196705955-f74f9c64-1b5d-4474-9886-f7967562a261.png)
+
+18. Pull "Soft tabs" on the UI Canvas
+![196352118-f7316905-fb2a-4d79-a4e8-f85cce462262](https://user-images.githubusercontent.com/114897342/196706057-8d2200ea-3e69-4fdb-b966-4a0c852ed23b.png)
+
+19. Click on VARIABLES
+![196352299-a15f567a-5126-4f55-bba2-85be234c1da0](https://user-images.githubusercontent.com/114897342/196706217-6b186a63-5806-49cb-a720-8bd5116a62b3.png)
+
+20. Go to PAGE VARIABLES and Click on "ADD PAGE VARIABLE" image
+![196356117-92515220-d4ed-4e10-9124-3e26800e8d30](https://user-images.githubusercontent.com/114897342/196706481-179d9309-7ff9-4b7f-9d60-84c46f1a3d88.png)
+
+21. Rename "variable 1" to "orders", Variable value type = "List" and List Item Type = "Object"
+
+![196356409-3b278e0a-5c97-4c54-8b6c-583e939e45fd](https://user-images.githubusercontent.com/114897342/196706599-47ce18c3-187a-4e56-8e52-97d3d2a7ee0f.png)
+
+
+22. Add New Property as "label"
+
+
+![196356812-d075ed97-0300-48ff-9f1d-1a5930bf1a40](https://user-images.githubusercontent.com/114897342/196706872-d647242d-20d0-4695-967c-139c5046592b.png)
+
+
+23. Add Initial value and Click SAVE image
+
+
+![196358489-0ce26026-b204-44d5-a914-276cc717dafd](https://user-images.githubusercontent.com/114897342/196706977-e82d7201-8e6c-4535-94c7-eeb24cfcc630.png)
+
+
+24. Add one more Page Variable and rename it to selected_tab and Click SAVE image
+![196359354-450cde49-2822-4d13-b304-2d2fa8971501](https://user-images.githubusercontent.com/114897342/196707072-bc691e1f-3322-4d53-9fef-4c5098551cfd.png)
+
+
 
 
 
