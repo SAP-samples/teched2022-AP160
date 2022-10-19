@@ -6,3 +6,10 @@ The hands-on session will involve two exercises.
 
 * Design and Develop extension in AppGyver and Embed as Mash up in SAP Sales and Service Cloud Version 2
 * Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2
+
+
+Design and Develop extension in AppGyver and Embed as Mash up in SAP Sales and Service Cloud Version 2
+Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2
+
+
+
