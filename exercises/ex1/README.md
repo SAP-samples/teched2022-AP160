@@ -250,6 +250,13 @@ Release Status:
 
 44. Repeat steps 36 to 43 to Customer Returns.
 
+45. Now go to Launch. Click on "OPEN APP PREVIEW PORTAL" and Open the app
+
+<img width="1505" alt="196409510-0cc22813-ee21-4935-a688-a8f3e1e1698b" src="https://user-images.githubusercontent.com/114897342/196710181-fbd40011-a5ed-4a80-b1a6-994bd066b13b.png">
+
+
+<img width="1495" alt="196409554-16b8258b-3611-49c9-9a52-4c4f83cc54e2" src="https://user-images.githubusercontent.com/114897342/196710280-eaa9c2ee-9a7b-4162-9981-a8086c7bc351.png">
+
 
 
 
