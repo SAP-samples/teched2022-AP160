@@ -267,16 +267,22 @@ Release Status:
 1. Log in to SAP Service Cloud Version 2 or SAP Sales Cloud Version 2.
 
 2. Navigate to Settings.
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/84871522/196828012-064a7722-72ff-4162-9ee5-c2b872441433.png">
 
 3. Navigate to Mashup Authoring. 
+<img width="1676" alt="image" src="https://user-images.githubusercontent.com/84871522/196828261-75ed2669-cf0f-4667-b9c6-db9b62d8f2fa.png">
 
 4. You will find the Mashup added in the list. This will be the mashup that we will be embedding in Agent Desktop. 
+<img width="1673" alt="image" src="https://user-images.githubusercontent.com/84871522/196828404-c5e1d53f-adcd-45a2-8826-513de9d7f45f.png">
 
 5. Navigate to the module switcher, and choose Agent Desktop.
+<img width="1677" alt="image" src="https://user-images.githubusercontent.com/84871522/196828450-23b91a9b-ba26-4da1-87ff-50199abe0717.png">
 
 6. A new tab opens, displaying the Agent Desktop.
+<img width="1673" alt="image" src="https://user-images.githubusercontent.com/84871522/196828481-bdcd5c8a-16b4-4a46-9f53-cf27e917b8a9.png">
 
 7. Search the Account.
+
 
 8. Click on "Confirm" button for the account name.
 
