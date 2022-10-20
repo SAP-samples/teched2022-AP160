@@ -259,12 +259,9 @@ Release Status:
 
 
 
-
-
-
 ## Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2 
 
-1. Log in to SAP Service Cloud Version 2 or SAP Sales Cloud Version 2.
+1. Log in to SAP Service Cloud Version 2.
 
 2. Navigate to Settings.
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/84871522/196828012-064a7722-72ff-4162-9ee5-c2b872441433.png">
@@ -287,7 +284,7 @@ Release Status:
 8. Click on the "Confirm" button for the contact. 
 <img width="1658" alt="image" src="https://user-images.githubusercontent.com/84871522/196870354-1f6d0504-5299-4920-a1e8-bc6fca41d003.png">
 
-9. A new tab opens, displaying the Customer Hub. 
+9. A new tab opens, displaying the "Customer Hub". 
 <img width="1664" alt="image" src="https://user-images.githubusercontent.com/84871522/196870574-a9f6a2db-caa1-4514-9217-a958e3e63681.png">
 
 10. Click on the User Profile -> Start Adaptation. 
@@ -323,7 +320,7 @@ Release Status:
 20. The new tab will be added.
 <img width="1656" alt="image" src="https://user-images.githubusercontent.com/84871522/196872619-555514ab-4f47-44f8-a6f7-3b671fe41470.png">
 
-21. Click on the newly added tab in the above step and Click on the Edit (pencil icon) inside the tab.
+21. Click on the newly added tab in the above step and Click on the Edit (pencil) icon inside the tab.
 <img width="1661" alt="image" src="https://user-images.githubusercontent.com/84871522/196872706-82d6d44b-4f11-46d9-a222-039c6e34f8a0.png">
 
 22. "Configure Tab" pop up will be displayed. Click on the ">" for Add Mashup. 
@@ -332,10 +329,10 @@ Release Status:
 23. A new pop up showing all the Mashups would display. 
 <img width="1672" alt="image" src="https://user-images.githubusercontent.com/84871522/196872904-93254c8c-c758-4b50-922b-bd71374c7371.png">
 
-24. Search for the Mashup we searched in step 4 and embed by clicking on ">" in front of the mashup name.
+24. Search for the Mashup we searched in step 4 and click on ">" in front of the mashup name.
 <img width="1656" alt="image" src="https://user-images.githubusercontent.com/84871522/196874051-3df06b74-d705-41f1-8337-c1e94adb0308.png">
 
-25. "Edit Properties" pop would display. Then click "Apply". 
+25. "Edit Properties" pop up would display. Then click "Apply". 
 <img width="1664" alt="image" src="https://user-images.githubusercontent.com/84871522/196874289-2631f96a-e65e-4044-a125-491e11d56ec7.png">
 
 26. The selected mashup would be displayed in the tab. Then end the Adaptation mode by clicking the "End Session" button on the orange bar on top of the page.
