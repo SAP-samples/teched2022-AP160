@@ -262,36 +262,62 @@ Release Status:
 
 
 
+## Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2 
 
+1. Log in to SAP Service Cloud Version 2 or SAP Sales Cloud Version 2.
 
+2. Navigate to Settings.
 
+3. Navigate to Mashup Authoring. 
 
+4. You will find the Mashup added in the list. This will be the mashup that we will be embedding in Agent Desktop. 
 
+5. Navigate to the module switcher, and choose Agent Desktop.
 
+6. A new tab opens, displaying the Agent Desktop.
 
+7. Search the Account.
 
+8. Click on "Confirm" button for the account name.
 
+9. Click on the "Confirm" button for the contact. 
 
+10. A new tab opens, displaying the Customer Hub. 
 
+11. Click on the User Profile -> Adaptation. 
 
+12. The application will be displayed in adaptation mode.
 
+13. Click on the Edit (pencil icon) in "What would you like to do?" section.
 
+14. "Section Items" pop up would be displayed. Here, click on the "Create Button" icon.
 
+15. A new popup "Add Button" opens. Add the Button Name and Event name for the button. Then click "Apply". 
 
+16. The new button will be added. 
 
+17. Click on the Edit (pencil icon) in the tabs section. 
 
+18. "Edit Tabs" popup would be displayed. Here, click on the "Create Tab" icon.
 
+19. Add new tab name and click ">" button. 
 
+20. Check the "Show on Event Trigger" checkbox and select the Event we added in Step 15. Then click "Apply".
 
+21. The new tab will be added.
 
+22. Click on the newly added tab in the above step and Click on the Edit (pencil icon) inside the tab.
 
+23. "Configure Tab" pop up will be displayed. Click on the ">" for Add Mashup. 
 
+24. A new pop up showing all the Mashups would display. 
 
+25. Search for the Mashup we are choosing to embed by clicking on ">" in front of the mashup name.
 
+26. Click "Apply". 
 
+27. The selected mashup would be displayed in the tab. 
 
+285. End the Adaptation mode. 
 
-
-
-
-
+29. Now, when you click on the new button we added in step 15 then the new tab which we added in step 21 will be displayed along with the selected Mashup. Your Mashup is embedded!!!
