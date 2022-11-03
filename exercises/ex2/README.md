@@ -79,5 +79,3 @@
 
 27. Now, when you click on the new button we added in step 15 then the new tab which we added in step 20 will be displayed along with the selected Mashup. Your Mashup is embedded!!!
 <img width="1661" alt="image" src="https://user-images.githubusercontent.com/84871522/196875002-0cd33617-3966-4400-a7da-86b19cce836b.png">
-
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
