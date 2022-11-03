@@ -35,7 +35,7 @@
 12. "Section Items" pop up would be displayed. Here, click on the "Create Button" (+) icon.
 <img width="1662" alt="image" src="https://user-images.githubusercontent.com/84871522/199809844-cda1ac84-9098-4fa3-98a4-eb5ff2b4a22e.png">
 
-13. A new popup "Add Button" opens. Add the Button Name and Event name for the button. Then click "Apply". 
+13. A new popup "Add Buttons" opens. Add the Button Name and Event name for the button. Then click "Apply". 
 <img width="1676" alt="image" src="https://user-images.githubusercontent.com/84871522/199810150-5738d2c6-669c-47c1-b7fc-50cbf64b7849.png">
 
 14. The new button will be added in the "What would you like to do?" section. 
@@ -59,7 +59,7 @@
 20. Click on the newly added tab in the above step and Click on the Edit (pencil) icon displayed for the tab.
 <img width="1661" alt="image" src="https://user-images.githubusercontent.com/84871522/199811954-c9ff0edf-c990-4f43-aec4-f4da0b0ba48e.png">
 
-21. "Configure Tab" pop up will be displayed. Click on the ">" for Add Mashup. 
+21. "Configure Tab" pop up will be displayed. Click on the ">" displayed in front of Add Mashup. 
 <img width="1671" alt="image" src="https://user-images.githubusercontent.com/84871522/199812063-69d6ecf2-337d-4a15-b75e-0fa6c1bd5633.png">
 
 22. A new pop up showing all the Mashups would display. 
@@ -68,7 +68,7 @@
 23. Search for the Mashup we searched in step 4 and click on ">" displayed in front of the mashup name.
 <img width="1669" alt="image" src="https://user-images.githubusercontent.com/84871522/199812399-bf728c25-7a94-4be9-8f41-dda0107be597.png">
 
-24. "Edit Properties" pop up would display. For "sap-soldtoparty" parameter, select "Fields/Default External Business Partner ID" Then click "Apply". 
+24. "Edit Properties" pop up would display. For "sap-soldtoparty" parameter, select "Fields/Default External Business Partner ID". 
 <img width="1666" alt="image" src="https://user-images.githubusercontent.com/84871522/199812668-2d7b9ff6-f760-457d-9777-a5a2ca04bee1.png">
 
 25. Click Apply in the "Edit Properties" pop up.
