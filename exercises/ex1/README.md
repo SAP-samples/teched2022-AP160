@@ -178,11 +178,9 @@ Click on SAVE
 
 ![196362661-fd840d82-6c3c-4e42-a86f-c639e5ac042c](https://user-images.githubusercontent.com/114897342/196707949-d88322b9-c92a-4c93-aed4-d5bd3bcadc15.png)
 
-33. Go to Variables and add App Variable
 
-![196397455-2d32171c-fcc0-48af-9bed-c6d951fd9813](https://user-images.githubusercontent.com/114897342/196708069-3380a5dd-fc8f-4630-bd97-188953113042.png)
 
-Go to Variables and then click on "ADD DATA VARIABLES".One for the Service Order and One for the Customer's Return
+33. Go to Variables and then click on "ADD DATA VARIABLES".One for the Service Order and One for the Customer's Return
 
 <img width="1508" alt="196407213-aa09a4be-b1e3-4708-93ab-23a0119a1201" src="https://user-images.githubusercontent.com/114897342/196708950-8cce7c93-f861-4828-a06a-bfda5b155e6f.png">
 
