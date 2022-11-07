@@ -104,7 +104,7 @@ Designing and Developing AppGyver Extensions
 19. Click on VARIABLES
 ![196352299-a15f567a-5126-4f55-bba2-85be234c1da0](https://user-images.githubusercontent.com/114897342/196706217-6b186a63-5806-49cb-a720-8bd5116a62b3.png)
 
-20. Go to PAGE VARIABLES and Click on "ADD PAGE VARIABLE" image
+20. Go to PAGE VARIABLES and Click on "ADD PAGE VARIABLE"
 ![196356117-92515220-d4ed-4e10-9124-3e26800e8d30](https://user-images.githubusercontent.com/114897342/196706481-179d9309-7ff9-4b7f-9d60-84c46f1a3d88.png)
 
 21. Rename "variable 1" to "orders", Variable value type = "List" and List Item Type = "Object"
@@ -118,24 +118,24 @@ Designing and Developing AppGyver Extensions
 ![196356812-d075ed97-0300-48ff-9f1d-1a5930bf1a40](https://user-images.githubusercontent.com/114897342/196706872-d647242d-20d0-4695-967c-139c5046592b.png)
 
 
-23. Add Initial value and Click SAVE image
+23. Add Initial value and Click SAVE
 
 
 ![196358489-0ce26026-b204-44d5-a914-276cc717dafd](https://user-images.githubusercontent.com/114897342/196706977-e82d7201-8e6c-4535-94c7-eeb24cfcc630.png)
 
 
-24. Add one more Page Variable and rename it to selected_tab and Click SAVE image
+24. Add one more Page Variable and rename it to selected_tab and Click SAVE
 ![196359354-450cde49-2822-4d13-b304-2d2fa8971501](https://user-images.githubusercontent.com/114897342/196707072-bc691e1f-3322-4d53-9fef-4c5098551cfd.png)
 
 
-25. Go back to the View and Click on Tabs in Properties image
+25. Go back to the View and Click on Tabs in Properties
 
 
 
 ![196359772-59ec267d-da26-4088-853c-f92655f830ae](https://user-images.githubusercontent.com/114897342/196707306-146dddb5-c245-4573-bd3d-6e0d2a710db5.png)
 
 
-26. Bind it with the Page variable "orders" image
+26. Bind it with the Page variable "orders"
 ![196360117-1e49c158-ff85-4b5c-8f26-3474e657de7a](https://user-images.githubusercontent.com/114897342/196707391-8d790dca-9c71-4e8d-9e91-f5bc12ea13f2.png)
 
 
@@ -143,34 +143,34 @@ Designing and Developing AppGyver Extensions
 
 ![196360792-78a4a6e9-7a8b-495e-8474-b7475b3d894c](https://user-images.githubusercontent.com/114897342/196707463-3f612330-fa03-4859-ad53-abe34d6f4d1c.png)
 
-28. Drag "Recieve event" into LOGIC and go to Event Source image
+28. Drag "Recieve event" into LOGIC and go to Event Source
 
 ![196361121-f05a2fa9-ba77-4231-b71d-21f3ce49aed6](https://user-images.githubusercontent.com/114897342/196707538-f323f017-9ae5-48d9-a3e5-6e39e79a0632.png)
 
 
-29. Set page variable and connect Event to Page variable image
+29. Set page variable and connect Event to Page variable
 ![196361608-5381eb23-5c7b-44dc-9b70-0e73accea59b](https://user-images.githubusercontent.com/114897342/196707611-4b4279d6-3bb0-4d41-8297-f75adf175cf5.png)
 
 
-30. Choose a Variable name image
+30. Choose a Variable name
 
 ![196361796-821c4491-4718-481d-bb4c-acaa89bd466e](https://user-images.githubusercontent.com/114897342/196707773-91d375c4-7637-4322-acc4-1a91408e2938.png)
 
 
-31. Choose the Assigned value image
+31. Choose the Assigned value
 ![196362016-d5d8bf82-2ccb-4989-97d2-9ee3b3299a5b](https://user-images.githubusercontent.com/114897342/196707886-3b218af3-85f5-4f4f-b4c1-c008adc40a1e.png)
 
 
-32. Drag and Drop "Input Field" into the UI Canvas image
+32. Drag and Drop "Input Field" into the UI Canvas
 
 ![196362661-fd840d82-6c3c-4e42-a86f-c639e5ac042c](https://user-images.githubusercontent.com/114897342/196707949-d88322b9-c92a-4c93-aed4-d5bd3bcadc15.png)
 
-33. Go to Variables and add App Variable image
+33. Go to Variables and add App Variable
 
 ![196397455-2d32171c-fcc0-48af-9bed-c6d951fd9813](https://user-images.githubusercontent.com/114897342/196708069-3380a5dd-fc8f-4630-bd97-188953113042.png)
 
 
-34. Drag and Drop the container and Rename it as Service Orders image
+34. Drag and Drop the container and Rename it as Service Orders
 
 
 ![196400015-d851919a-8aa9-4004-999b-297bff2b8420](https://user-images.githubusercontent.com/114897342/196708130-1a14af08-9230-4534-b122-f7821525282f.png)
@@ -182,26 +182,26 @@ Designing and Developing AppGyver Extensions
 <img width="1234" alt="196400344-fc777240-c247-4f8f-8dbf-c51b5ce97460" src="https://user-images.githubusercontent.com/114897342/196708208-ee3e4264-15d7-47d6-93dd-598bcf2486b8.png">
 
 
-36. Drag and Drop Text inside the container and rename it as Service Order image
+36. Drag and Drop Text inside the container and rename it as Service Order
 ![196400685-7ede93b3-8415-40ef-a752-0d252ef8a2e7](https://user-images.githubusercontent.com/114897342/196708432-3fa9792c-9466-482d-9913-7a8bb3721c4d.png)
 
 
-37. Drag and Drop the Row and set the layout as 7 Cells image
+37. Drag and Drop the Row and set the layout as 7 Cells
 
 ![196400979-ce55bb82-428f-451d-957f-9d379c829fea](https://user-images.githubusercontent.com/114897342/196708511-0c0550ef-b27c-4eb9-9edb-d5b837402ce3.png)
 
 
-38. Drag and Drop "List Section Header" in each of these cells as shown below image
+38. Drag and Drop "List Section Header" in each of these cells as shown below
 
 ![196405356-78b1544b-9a48-4e72-bc5a-7e033ddadd72](https://user-images.githubusercontent.com/114897342/196708668-3c5019bc-edd9-4f9f-913b-45c14c780539.png)
 
 
-39. Search for "Link Button" in the marketplace and Install image
+39. Search for "Link Button" in the marketplace and Install
 
 ![196405978-54e364ac-451d-4154-b218-29b266051d0b](https://user-images.githubusercontent.com/114897342/196708727-704376fe-8d3a-493a-9b36-b9933d407ca1.png)
 
 
-40. Drag and Drop the Link button inside the first container and List Item in rest of the 6 items image
+40. Drag and Drop the Link button inside the first container and List Item in rest of the 6 items
 ![196406904-9868e6fe-376c-44f1-89df-d314023cf991](https://user-images.githubusercontent.com/114897342/196708792-d3b4d6ef-a1f8-4e68-84b5-3224f741850d.png)
 
 
