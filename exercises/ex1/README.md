@@ -18,7 +18,7 @@ Design and Develop extension in AppGyver and Embed as Mash up in SAP Sales and S
 
 ![196336426-951f9368-cffa-4fc0-b772-32e13fbd8616](https://user-images.githubusercontent.com/114897342/196701140-4f597e67-2f8c-4221-9483-8b2547a4f60f.gif)
 
-3. A new browser tab opens, displaying the AppGyver lobby. image
+3. A new browser tab opens, displaying the AppGyver lobby
 
 
 
