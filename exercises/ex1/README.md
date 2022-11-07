@@ -229,6 +229,28 @@ For all the List Item, Remove the "Secondary label" from "Label" to Space and Ar
 
 <img width="1508" alt="196407213-aa09a4be-b1e3-4708-93ab-23a0119a1201" src="https://user-images.githubusercontent.com/114897342/196708950-8cce7c93-f861-4828-a06a-bfda5b155e6f.png">
 
+Click on "APP VARIABLE" and "ADD APP VARIABLE" as shown below
+<img width="1504" alt="image" src="https://user-images.githubusercontent.com/114897342/200299802-4dd2eb95-fac8-44af-8d99-5eff31e73272.png">
+
+Click on "PAGE PARAMETERS" and "ADD PARAMETER" as shown below
+<img width="1509" alt="image" src="https://user-images.githubusercontent.com/114897342/200300194-49486baa-9298-4b85-8549-5d40b1d96724.png">
+
+Click on "Show logic for S/4 HANA TRANSACTIONS SEARCH" at the bottom section of the screen
+![image](https://user-images.githubusercontent.com/114897342/200300711-9b8a3be8-a44e-44ae-bc10-5cca0ed6d71e.png)
+
+Drag "Set app variable" from the left section of the screen to the Logic block and connect Event to Variables as show below
+<img width="1499" alt="image" src="https://user-images.githubusercontent.com/114897342/200301064-4993f0be-db16-45d5-bb9a-32058434c7e3.png">
+
+Set Variable name to AccountID
+<img width="855" alt="image" src="https://user-images.githubusercontent.com/114897342/200301141-8ae97b17-bf14-43a3-9c36-ddeb62fb3d5d.png">
+
+Set Assigned value to pgAccountID
+<img width="861" alt="image" src="https://user-images.githubusercontent.com/114897342/200301215-d6ac7eb2-f08d-4c8e-a639-2e0640da4b42.png">
+
+Your screen should look like below
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/114897342/200301395-474306b2-9a9e-413d-9dc6-45aa9f1afff2.png">
+
+
 
 42. Choose the Service Order Data Variable and Click on Filter Condition
 
