@@ -225,7 +225,7 @@ Drag and Drop one more Row inside the container and set the layout as 6 Cells
 
 For all the List Item, Remove the "Secondary label" from "Label" to Space and Arrow Visible to "False" (This is an optional activity)
 
-41. Go to Variables and then click on DATA VARIABLES.One for the Service Order and One for the Customer's Return
+41. Go to Variables and then click on "ADD DATA VARIABLES".One for the Service Order and One for the Customer's Return
 
 <img width="1508" alt="196407213-aa09a4be-b1e3-4708-93ab-23a0119a1201" src="https://user-images.githubusercontent.com/114897342/196708950-8cce7c93-f861-4828-a06a-bfda5b155e6f.png">
 
