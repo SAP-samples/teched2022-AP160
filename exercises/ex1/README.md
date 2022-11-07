@@ -178,15 +178,14 @@ Designing and Developing AppGyver Extensions
 
 35. Set Visible property with the following formula
 
-
-<img width="1234" alt="196400344-fc777240-c247-4f8f-8dbf-c51b5ce97460" src="https://user-images.githubusercontent.com/114897342/196708208-ee3e4264-15d7-47d6-93dd-598bcf2486b8.png">
+![image](https://user-images.githubusercontent.com/114897342/200282719-86fa1c73-8551-44f6-b404-cb355eb1507c.png)
 
 
 36. Drag and Drop Text inside the container and rename it as Service Order
 ![196400685-7ede93b3-8415-40ef-a752-0d252ef8a2e7](https://user-images.githubusercontent.com/114897342/196708432-3fa9792c-9466-482d-9913-7a8bb3721c4d.png)
 
 
-37. Drag and Drop the Row and set the layout as 7 Cells
+37. Drag and Drop the Row and set the layout as 6 Cells
 
 ![196400979-ce55bb82-428f-451d-957f-9d379c829fea](https://user-images.githubusercontent.com/114897342/196708511-0c0550ef-b27c-4eb9-9edb-d5b837402ce3.png)
 
