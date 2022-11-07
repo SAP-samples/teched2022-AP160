@@ -75,11 +75,19 @@ Designing and Developing AppGyver Extensions
 ![image](https://user-images.githubusercontent.com/114897342/200280171-6461b065-d07d-44a7-9d07-85a1d706ce62.png)
 
 
-12. Click on S4HANACLUD_SO AND S4HANACLOUD_CUSTRETURNS
+12. Click on S4HANACLOUD_SO AND S4HANACLOUD_CUSTRETURNS
 
-<img width="1501" alt="196344105-1f9e788d-1e04-460b-b3fd-72ad09339758" src="https://user-images.githubusercontent.com/114897342/196704683-d7ad35e7-5de5-43aa-ad9a-399a6ce54869.png">
 
 <img width="1502" alt="196344152-cd6dbb6f-7d37-4bea-ace1-c8909159c5a7" src="https://user-images.githubusercontent.com/114897342/196704914-41fa6067-51f7-4cd2-8aa4-df4fff5669ad.png">
+
+Click on Install Integration
+![image](https://user-images.githubusercontent.com/114897342/200292529-685b2c31-8254-483e-a3fa-641a8899c8fb.png)
+
+Click on Enable Data Entry
+<img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200292888-0b732eb7-0d76-43e1-9ae6-95e4cd30588b.png">
+
+Repeat the same for S4HANACLOUD_SO
+<img width="1501" alt="196344105-1f9e788d-1e04-460b-b3fd-72ad09339758" src="https://user-images.githubusercontent.com/114897342/196704683-d7ad35e7-5de5-43aa-ad9a-399a6ce54869.png">
 
 
 13. Click on UI Canvas and go to Market Place
