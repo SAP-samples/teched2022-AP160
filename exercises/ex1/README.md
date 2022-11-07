@@ -182,6 +182,9 @@ Click on SAVE
 
 ![196397455-2d32171c-fcc0-48af-9bed-c6d951fd9813](https://user-images.githubusercontent.com/114897342/196708069-3380a5dd-fc8f-4630-bd97-188953113042.png)
 
+Go to Variables and then click on "ADD DATA VARIABLES".One for the Service Order and One for the Customer's Return
+
+<img width="1508" alt="196407213-aa09a4be-b1e3-4708-93ab-23a0119a1201" src="https://user-images.githubusercontent.com/114897342/196708950-8cce7c93-f861-4828-a06a-bfda5b155e6f.png">
 
 34. Drag and Drop the container and Rename it as Service Orders
 
@@ -233,11 +236,7 @@ Go to "PROPERTIES" and Click on "Repeat with" and Bind with Data Variable
 
 For all the List Item, Remove the "Secondary label" from "Label" to Space and Arrow Visible to "False" (This is an optional activity)
 
-41. Go to Variables and then click on "ADD DATA VARIABLES".One for the Service Order and One for the Customer's Return
-
-<img width="1508" alt="196407213-aa09a4be-b1e3-4708-93ab-23a0119a1201" src="https://user-images.githubusercontent.com/114897342/196708950-8cce7c93-f861-4828-a06a-bfda5b155e6f.png">
-
-Click on "APP VARIABLE" and "ADD APP VARIABLE" as shown below
+41. Go to Variable and Click on "APP VARIABLE" and "ADD APP VARIABLE" as shown below
 <img width="1504" alt="image" src="https://user-images.githubusercontent.com/114897342/200299802-4dd2eb95-fac8-44af-8d99-5eff31e73272.png">
 
 Click on "PAGE PARAMETERS" and "ADD PARAMETER" as shown below
