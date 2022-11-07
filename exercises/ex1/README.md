@@ -80,7 +80,7 @@ Designing and Developing AppGyver Extensions
 Click on "INSTALL INTGRATION"
 ![image](https://user-images.githubusercontent.com/114897342/200292529-685b2c31-8254-483e-a3fa-641a8899c8fb.png)
 
-Click on "ENABLE DATA ENTRY"
+Click on "ENABLE DATA ENTRY" and SAVE
 <img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200292888-0b732eb7-0d76-43e1-9ae6-95e4cd30588b.png">
 
 <img width="1502" alt="196344152-cd6dbb6f-7d37-4bea-ace1-c8909159c5a7" src="https://user-images.githubusercontent.com/114897342/196704914-41fa6067-51f7-4cd2-8aa4-df4fff5669ad.png">
@@ -93,11 +93,17 @@ Repeat the same for DESTINATION "S4HANACLOUD_SO"
 ![196349784-093f4794-cbdf-4865-8757-4579e5f1d03a](https://user-images.githubusercontent.com/114897342/196705212-8bcab432-dc56-45fd-abb5-dab8e01daeb6.png)
 
 14. Search for "Soft tabs"
+<img width="1509" alt="image" src="https://user-images.githubusercontent.com/114897342/200294301-eb9eeead-78bb-4c8a-aa36-56791677e9d0.png">
+
+
 
 ![196350050-989661cc-0843-47f1-a9c4-d64f798beb43](https://user-images.githubusercontent.com/114897342/196705386-4cf67d32-9d57-4ebd-b8a9-3258e76e5d51.png)
 
 15. Click on the "Soft tab" and INSTALL
-![196350230-c1624871-1728-4c73-8015-ce8f8ea6736f](https://user-images.githubusercontent.com/114897342/196705504-45b7eb15-51d4-4fc0-be03-0cdffc61c0de.png)
+
+<img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200294591-f5e25c55-0597-4ed1-bfd0-6835cbea1636.png">
+
+Click on SAVE
 
 16. You can now see "Soft tabs" in the Installed
 ![196350825-12e6f390-cd16-4130-af24-d4a338ecd389](https://user-images.githubusercontent.com/114897342/196705835-111d09a2-4c15-404f-99f6-3d73ed776a37.png)
@@ -192,14 +198,20 @@ Repeat the same for DESTINATION "S4HANACLOUD_SO"
 ![196400685-7ede93b3-8415-40ef-a752-0d252ef8a2e7](https://user-images.githubusercontent.com/114897342/196708432-3fa9792c-9466-482d-9913-7a8bb3721c4d.png)
 
 
-37. Drag and Drop the Row and set the layout as 6 Cells
+37. Drag and Drop the Row inside the container and set the layout as 6 Cells
 
-![196400979-ce55bb82-428f-451d-957f-9d379c829fea](https://user-images.githubusercontent.com/114897342/196708511-0c0550ef-b27c-4eb9-9edb-d5b837402ce3.png)
+<img width="1507" alt="image" src="https://user-images.githubusercontent.com/114897342/200296479-7f5528a3-a79a-4631-958c-865b389f8a56.png">
+
 
 
 38. Drag and Drop "List Section Header" in each of these cells as shown below
 
-![196405356-78b1544b-9a48-4e72-bc5a-7e033ddadd72](https://user-images.githubusercontent.com/114897342/196708668-3c5019bc-edd9-4f9f-913b-45c14c780539.png)
+
+<img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200297218-6fb14307-5dd1-43db-9a9e-8a5fe070cc72.png">
+
+
+Drag and Drop one more Row inside the container and set the layout as 6 Cells
+<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200297730-1989e161-0f6b-43a4-9520-7ce841215c78.png">
 
 
 39. Search for "Link Button" in the marketplace and Install
