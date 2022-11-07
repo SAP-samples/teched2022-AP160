@@ -71,7 +71,8 @@ Designing and Developing AppGyver Extensions
 
 
 11. You will see a list of BTP Destinations.Note: BTP Destinations listed here are the destinations to your own SAP Service and Sales Cloud Version 2 API destination as it is set up on the BTP sub-account by the SAP AppGyver support team when the SAP Service and Sales Cloud Version 2 system is provisioned.
-<img width="1494" alt="196343633-48aadb73-2d9a-4216-9842-a627a11c584f" src="https://user-images.githubusercontent.com/114897342/196704401-5b123ffa-c5b9-42f2-be5c-d3b5ad9528b3.png">
+
+![image](https://user-images.githubusercontent.com/114897342/200280171-6461b065-d07d-44a7-9d07-85a1d706ce62.png)
 
 
 12. Click on S4HANACLUD_SO AND S4HANACLOUD_CUSTRETURNS
