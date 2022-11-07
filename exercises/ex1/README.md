@@ -219,9 +219,11 @@ Drag and Drop one more Row inside the container and set the layout as 6 Cells
 ![196405978-54e364ac-451d-4154-b218-29b266051d0b](https://user-images.githubusercontent.com/114897342/196708727-704376fe-8d3a-493a-9b36-b9933d407ca1.png)
 
 
-40. Drag and Drop the Link button inside the first container and List Item in rest of the 6 items
-![196406904-9868e6fe-376c-44f1-89df-d314023cf991](https://user-images.githubusercontent.com/114897342/196708792-d3b4d6ef-a1f8-4e68-84b5-3224f741850d.png)
+40. Drag and Drop the Link button inside the first cell and List Item in rest of the 5 cells
 
+<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200298879-a79a03ca-a282-4884-8fbb-3139bcd40381.png">
+
+For all the List Item, Remove the "Secondary label" from "Label" to Space and Arrow Visible to "False" (This is an optional activity)
 
 41. Go to Variables and then click on DATA VARIABLES.One for the Service Order and One for the Customer's Return
 
