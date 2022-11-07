@@ -213,6 +213,14 @@ Click on SAVE
 Drag and Drop one more Row inside the container and set the layout as 6 Cells
 <img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200297730-1989e161-0f6b-43a4-9520-7ce841215c78.png">
 
+Go to "PROPERTIES" and Click on "Repeat with" and Bind with Data Variable
+<img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200305913-56dc1e73-0e23-426e-b2fa-c08b34761790.png">
+
+<img width="854" alt="image" src="https://user-images.githubusercontent.com/114897342/200305666-d0793c86-5594-4ba6-b990-9704a0b75360.png">
+
+
+
+
 
 39. Search for "Link Button" in the marketplace and Install
 
@@ -256,40 +264,48 @@ Your screen should look like below
 
 <img width="858" alt="196407533-f535bc65-c5ca-4600-8f87-756c13d84acd" src="https://user-images.githubusercontent.com/114897342/196709010-12a98082-fff9-4772-aa40-4b4974bd44cb.png">
 
-Repeat the above step for the Customer Return as well.
 
 43. Go to the Row of the List Item and bind individual fields as shown below
 
-Service Order list item: 
-<img width="857" alt="196407999-4fb530c5-d4c1-4bb4-896b-abe58b002f4f" src="https://user-images.githubusercontent.com/114897342/196709398-9b0ea0b1-73ec-4a72-aa3e-2b92c9e81154.png">
+Service Order:
+Click on Link Button and go to Label on the left side
+<img width="1501" alt="image" src="https://user-images.githubusercontent.com/114897342/200303788-81d3e1d1-04de-4193-889d-b7c5d0014ba8.png">
+
+Bind the label to the Service Order
+<img width="850" alt="image" src="https://user-images.githubusercontent.com/114897342/200303899-c8e829e4-e6fd-459c-a52c-9ae667d8b107.png">
 
 
 Description:
-<img width="852" alt="196408078-e6631f86-b8cb-469d-ab2d-aa8cf52c2525" src="https://user-images.githubusercontent.com/114897342/196709425-f9e9d267-8ac6-4c7d-a2ae-6b7bf72cadf0.png">
+<img width="1504" alt="image" src="https://user-images.githubusercontent.com/114897342/200304065-f40dbc5e-9cdb-43b9-9a05-6d3bc2476a9d.png">
+<img width="854" alt="image" src="https://user-images.githubusercontent.com/114897342/200304093-b5faffd3-fda1-40f7-bd7e-f3501f9e18dd.png">
+
+
+Requested Start Date:
+<img width="1505" alt="image" src="https://user-images.githubusercontent.com/114897342/200304183-e3e8957f-de77-4e1a-aca2-92b0d8211009.png">
+<img width="1232" alt="image" src="https://user-images.githubusercontent.com/114897342/200304236-534adc79-1e0d-42b0-b99b-3c82bf710240.png">
+
+Formula: FORMAT_DATETIME_LOCAL(DATETIME(NUMBER(REPLACE_ALL(REPLACE_ALL(repeated.current.RequestedServiceStartDateTime, "/Date(",""), ")/",""))),"DD.MM.YYYY")
+
+Requested End Date:
+<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200304326-1816b4d0-53dd-498d-8f7c-22e0ce7d4bd9.png">
+<img width="1231" alt="image" src="https://user-images.githubusercontent.com/114897342/200304368-b5092acb-bf6a-42d8-8d89-d1e0e89d1733.png">
+
+Formula: FORMAT_DATETIME_LOCAL(DATETIME(NUMBER(REPLACE_ALL(REPLACE_ALL(repeated.current.RequestedServiceEndDateTime, "/Date(",""), ")/",""))),"DD.MM.YYYY")
+
+Order Status:
+<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200304442-3e442b58-5f76-4ffc-b34c-18f12ab220d1.png">
+<img width="1238" alt="image" src="https://user-images.githubusercontent.com/114897342/200304487-dd5604e6-6c88-47ed-a609-4081e94e91c7.png">
+
+Formula: IF(repeated.current.ServiceOrderIsCompleted == "X","Completed","In Progress")
+
+Release Status:
+<img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200304590-c41aa228-4d62-418c-beda-78c639bb1c47.png">
+<img width="1231" alt="image" src="https://user-images.githubusercontent.com/114897342/200304632-bf38f82d-1565-4a1f-8d16-bdd6e8d0c28b.png">
+
+Formula: IF(repeated.current.ServiceOrderIsReleased == "X" || repeated.current.ServiceOrderIsCompleted == 'X',"Released","Open")
 
 
 
-
-Net Value:
-<img width="1222" alt="196408198-9956505d-6846-4531-b82e-034aafb63151" src="https://user-images.githubusercontent.com/114897342/196709576-6c230bf3-407a-4833-a34f-b924bb76cc81.png">
-
-Requested Start Date: 
-
-<img width="1186" alt="196408297-deaae91c-c644-42a2-bc96-51bf82bd19fe" src="https://user-images.githubusercontent.com/114897342/196709690-6b110f55-394e-4efc-a0bb-65ea8d750ce8.png">
-
-
-Requested End Date: 
-<img width="1198" alt="196408368-6275add8-dfb2-42bf-991e-998ba480167e" src="https://user-images.githubusercontent.com/114897342/196709782-07fc94a3-db2b-4368-a78f-bbd0e679fa77.png">
-
-
-
-Order Status: 
-<img width="1199" alt="196408459-4e924b0d-4e9f-4d58-8369-56bb87b8c4d8" src="https://user-images.githubusercontent.com/114897342/196709833-f03b6b9b-83e6-4a27-b9a8-9a0e3a5b1010.png">
-
-
-
-Release Status: 
-<img width="1208" alt="196408533-d0e880b0-57d1-4fb0-9984-d07c3408fde7" src="https://user-images.githubusercontent.com/114897342/196709990-6ccf3c7e-a5f6-451e-85a0-56521d47af04.png">
 
 44. Repeat steps 36 to 43 to Customer Returns.
 
