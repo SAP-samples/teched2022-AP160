@@ -195,7 +195,7 @@ Click on SAVE
 
 
 36. Drag and Drop Text inside the container and rename it as Service Order
-![196400685-7ede93b3-8415-40ef-a752-0d252ef8a2e7](https://user-images.githubusercontent.com/114897342/196708432-3fa9792c-9466-482d-9913-7a8bb3721c4d.png)
+![image](https://user-images.githubusercontent.com/114897342/200482604-45e7fdc4-4452-4b4c-80e1-d68f9b63f5b0.png)
 
 
 37. Drag and Drop the Row inside the container and set the layout as 6 Cells
