@@ -233,31 +233,36 @@ Go to "PROPERTIES" and Click on "Repeat with" and Bind with Data Variable
 For all the List Item, Remove the "Secondary label" from "Label" to Space and Arrow Visible to "False" (This is an optional activity)
 
 41. Go to Variable and Click on "APP VARIABLE" and "ADD APP VARIABLE" as shown below
-<img width="1504" alt="image" src="https://user-images.githubusercontent.com/114897342/200299802-4dd2eb95-fac8-44af-8d99-5eff31e73272.png">
+<img width="1497" alt="image" src="https://user-images.githubusercontent.com/114897342/200468761-6bc2b913-9cb9-4726-b689-6772912cc606.png">
+
 
 Click on "PAGE PARAMETERS" and "ADD PARAMETER" as shown below
-<img width="1509" alt="image" src="https://user-images.githubusercontent.com/114897342/200300194-49486baa-9298-4b85-8549-5d40b1d96724.png">
+<img width="1505" alt="image" src="https://user-images.githubusercontent.com/114897342/200468833-4ad3e4df-616a-4ef4-af12-4df4d1d9da84.png">
+
 
 Click on "Show logic for S/4 HANA TRANSACTIONS SEARCH" at the bottom section of the screen
-![image](https://user-images.githubusercontent.com/114897342/200300711-9b8a3be8-a44e-44ae-bc10-5cca0ed6d71e.png)
+<img width="1501" alt="image" src="https://user-images.githubusercontent.com/114897342/200468871-88215cdb-88c7-4cb6-8772-74bd217a1abb.png">
+
 
 Drag "Set app variable" from the left section of the screen to the Logic block and connect Event to Variables as show below
 <img width="1499" alt="image" src="https://user-images.githubusercontent.com/114897342/200301064-4993f0be-db16-45d5-bb9a-32058434c7e3.png">
 
-Set Variable name to AccountID
-<img width="855" alt="image" src="https://user-images.githubusercontent.com/114897342/200301141-8ae97b17-bf14-43a3-9c36-ddeb62fb3d5d.png">
+Set Variable name to Salesorg
+<img width="858" alt="image" src="https://user-images.githubusercontent.com/114897342/200468918-4a4109d5-7dc9-4ff1-bc35-76d5b24043de.png">
 
 Set Assigned value to pgAccountID
-<img width="861" alt="image" src="https://user-images.githubusercontent.com/114897342/200301215-d6ac7eb2-f08d-4c8e-a639-2e0640da4b42.png">
+<img width="850" alt="image" src="https://user-images.githubusercontent.com/114897342/200468962-814dfca6-a800-4a38-b1eb-23c68bf0963f.png">
 
 Your screen should look like below
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/114897342/200301395-474306b2-9a9e-413d-9dc6-45aa9f1afff2.png">
-
+<img width="1509" alt="image" src="https://user-images.githubusercontent.com/114897342/200469019-484deb87-af4a-44dc-adc2-d2b10fcf2f31.png">
 
 
 42. Choose the Service Order Data Variable and Click on Filter Condition
+<img width="1502" alt="image" src="https://user-images.githubusercontent.com/114897342/200469245-d7f6e2f6-36f3-493a-a05a-c91f8731529b.png">
 
-<img width="858" alt="196407533-f535bc65-c5ca-4600-8f87-756c13d84acd" src="https://user-images.githubusercontent.com/114897342/196709010-12a98082-fff9-4772-aa40-4b4974bd44cb.png">
+<img width="855" alt="image" src="https://user-images.githubusercontent.com/114897342/200469282-fa3f1410-2c0a-4604-bbde-36e8b9ba5d32.png">
+
+
 
 
 43. Go to the Row of the List Item and bind individual fields as shown below
