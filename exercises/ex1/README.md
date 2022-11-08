@@ -185,8 +185,8 @@ Click on SAVE
 
 34. Drag and Drop the container and Rename it as Service Orders
 
+![image](https://user-images.githubusercontent.com/114897342/200482348-9408cfe0-6743-4406-b421-c7da2af315d4.png)
 
-![196400015-d851919a-8aa9-4004-999b-297bff2b8420](https://user-images.githubusercontent.com/114897342/196708130-1a14af08-9230-4534-b122-f7821525282f.png)
 
 
 35. Set Visible property with the following formula
