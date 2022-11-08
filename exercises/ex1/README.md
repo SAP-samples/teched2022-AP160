@@ -326,9 +326,26 @@ NOTE: THIS APP IS PRECOMPLETED TILL THIS STEP AND IS AN OPTION ACTIVITY. HANDS-O
 <img width="1512" alt="image" src="https://user-images.githubusercontent.com/114897342/200472652-85450ff6-043e-4269-b982-346ec30e91bd.png">
 <img width="1508" alt="image" src="https://user-images.githubusercontent.com/114897342/200472732-3379171e-0c87-48e0-8a4d-726a3d116881.png">
 
-6) 
+6) For First Row (Row 3), Drag and Drop "List Section Header" into each of the Cells and Rename as Shown Below
+<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200472957-84d7a718-888c-42e5-ac2a-6e9c24b789fe.png">
 
+7) For Seconf Row (Row 4), 
 
+For the First Cell, Drag and Drop "Link Button"
+<img width="1509" alt="image" src="https://user-images.githubusercontent.com/114897342/200473365-458929d0-b3e2-4d26-8bea-fc149f02f3da.png">
+
+For the Second Cell on wards, Drag and Drop "List Item" into the Cells
+<img width="1502" alt="image" src="https://user-images.githubusercontent.com/114897342/200473486-c2f57f91-baa4-4043-9aa7-005193c715a5.png">
+
+Remove "Secondary Label" and Set "Arrow Visible" to "False" in Properties( This is an optional activity)
+![image](https://user-images.githubusercontent.com/114897342/200473856-58648556-eaf2-4a10-a716-2c94becda8b9.png)
+
+8) Choose Second Row (Row 4) and Click on "Repeat with" in Properties
+
+![image](https://user-images.githubusercontent.com/114897342/200474027-4387067d-3cfa-45a0-8a72-0ecdefff9dac.png)
+
+and Bind this Row with the Data variable "A_Customer Return1" 
+![image](https://user-images.githubusercontent.com/114897342/200474119-d846928b-f222-4dd0-8b05-d539e9ea1bab.png)
 
 
 
