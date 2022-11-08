@@ -176,8 +176,7 @@ Click on SAVE
 
 32. Drag and Drop "Input Field" into the UI Canvas
 
-![196362661-fd840d82-6c3c-4e42-a86f-c639e5ac042c](https://user-images.githubusercontent.com/114897342/196707949-d88322b9-c92a-4c93-aed4-d5bd3bcadc15.png)
-
+<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200467460-3231c3a7-8fd3-4f1d-bccc-d7df0a5a75fa.png">
 
 
 33. Go to Variables and then click on "ADD DATA VARIABLES".One for the Service Order and One for the Customer's Return
@@ -201,18 +200,17 @@ Click on SAVE
 
 37. Drag and Drop the Row inside the container and set the layout as 6 Cells
 
-<img width="1507" alt="image" src="https://user-images.githubusercontent.com/114897342/200296479-7f5528a3-a79a-4631-958c-865b389f8a56.png">
-
+<img width="1509" alt="image" src="https://user-images.githubusercontent.com/114897342/200467833-939d2132-1052-4206-ae8f-d934beba563f.png">
 
 
 38. Drag and Drop "List Section Header" in each of these cells as shown below
 
-
-<img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200297218-6fb14307-5dd1-43db-9a9e-8a5fe070cc72.png">
+<img width="1509" alt="image" src="https://user-images.githubusercontent.com/114897342/200468177-3a91b3d2-e5cb-4c14-becc-10b73e5a25a9.png">
 
 
 Drag and Drop one more Row inside the container and set the layout as 6 Cells
-<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200297730-1989e161-0f6b-43a4-9520-7ce841215c78.png">
+
+<img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200468495-bd96e721-b247-43f0-95f3-7b21969891d0.png">
 
 Go to "PROPERTIES" and Click on "Repeat with" and Bind with Data Variable
 <img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200305913-56dc1e73-0e23-426e-b2fa-c08b34761790.png">
