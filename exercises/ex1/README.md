@@ -308,6 +308,27 @@ Formula: IF(repeated.current.ServiceOrderIsReleased == "X" || repeated.current.S
 NOTE: THIS APP IS PRECOMPLETED TILL THIS STEP AND IS AN OPTION ACTIVITY. HANDS-ON EXERCISE WILL BEGIN FROM THE BELOW STEP.
 
 
+**CUSTOMER RETURNS:**
+
+1) Pull the container into the Canvas From the Left Option Bar
+<img width="1502" alt="image" src="https://user-images.githubusercontent.com/114897342/200471995-c6d26e67-d00b-459a-b801-2e1f998f446a.png">
+
+2) Rename the Container as "Customer Returns"
+<img width="1511" alt="image" src="https://user-images.githubusercontent.com/114897342/200472130-94d88ee6-2efe-43f6-8a76-8315f4acf5d3.png">
+
+3) Drag and Drop "Text" inside the Container and Rename it as "Customer Returns"
+<img width="1507" alt="image" src="https://user-images.githubusercontent.com/114897342/200472371-1cc7f871-2b5b-4bee-bc24-528c6ebdba13.png">
+
+4) Drag and Drop two "Row" inside the Container
+<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200472537-772c9137-9182-4802-b5cd-014d93542350.png">
+
+5) Click on First and Second Row (Row 3 and Row 4) and Set to 5 Cells in Layout
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/114897342/200472652-85450ff6-043e-4269-b982-346ec30e91bd.png">
+<img width="1508" alt="image" src="https://user-images.githubusercontent.com/114897342/200472732-3379171e-0c87-48e0-8a4d-726a3d116881.png">
+
+6) 
+
+
 
 
 
