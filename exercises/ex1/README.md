@@ -405,7 +405,21 @@ Formula: IF(repeated.current.OverallSDProcessStatus == "A","Open",IF(repeated.cu
 SAVE
 
 
-12) 
+12) Now Click on "LAUNCH" in the Top Menu
+<img width="1501" alt="image" src="https://user-images.githubusercontent.com/114897342/200476826-750d59f4-ba33-4cb1-85a5-cbd88705c890.png">
+
+13) Click on "OPEN APP PREVIEW PORTAL"
+
+14) Enter Sales Org 
+<img width="1504" alt="image" src="https://user-images.githubusercontent.com/114897342/200476979-d64168b6-5c8b-408a-a83b-0bfd265e7fe4.png">
+
+15) Click on Service Orders
+<img width="1504" alt="image" src="https://user-images.githubusercontent.com/114897342/200477042-fd45a569-3a66-4198-a480-2257950e4637.png">
+
+16) Click on Customer Returns
+<img width="1504" alt="image" src="https://user-images.githubusercontent.com/114897342/200477119-54943b95-67f3-4532-bfff-de5fd9de26e6.png">
+
+
 
 
 Continue to - [Exercise 2](../ex2/README.md)
