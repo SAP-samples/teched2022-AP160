@@ -347,8 +347,65 @@ Remove "Secondary Label" and Set "Arrow Visible" to "False" in Properties( This 
 and Bind this Row with the Data variable "A_Customer Return1" 
 ![image](https://user-images.githubusercontent.com/114897342/200474119-d846928b-f222-4dd0-8b05-d539e9ea1bab.png)
 ![image](https://user-images.githubusercontent.com/114897342/200474296-1b303492-02a9-4d4f-95b2-911fda89e7be.png)
+![image](https://user-images.githubusercontent.com/114897342/200474577-b6edc20f-f6be-4f08-bac2-48865a681ebb.png)
+
+9) Now Bind each of these Five fields as below
+
+**Return Order:**
+<img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200474770-9fe2295f-d609-43c3-a279-0de67354f8c5.png">
+
+![image](https://user-images.githubusercontent.com/114897342/200474891-b9c09306-49d3-41cf-acde-352fb2775642.png)
+
+Click on Show logic for "Link BUTTON 2"
+![image](https://user-images.githubusercontent.com/114897342/200475096-dd45d32b-90ba-4d40-aed0-b2bdd7b4e77a.png)
+
+Go to the "MARKETPLACE" and Search "Open URL" 
+![image](https://user-images.githubusercontent.com/114897342/200475287-f256853f-821c-42ca-b0f4-77aa4e5e6edf.png)
+
+"INSTALL" the Open URL
+![image](https://user-images.githubusercontent.com/114897342/200475360-79333214-9819-4e44-9ab4-fc9609a12ee1.png)
+
+Drag and Drop "Open URL" into the Canvas and connect EVENT to Open URL
+![image](https://user-images.githubusercontent.com/114897342/200475706-1601d965-8adf-4856-ac3c-7368ce9c67c1.png)
+
+![image](https://user-images.githubusercontent.com/114897342/200475786-104c8cec-2e42-4a56-9137-074a6a42bd0a.png)
+
+Formula: 
+"https://my300047.s4hana.ondemand.com/ui#ReturnsOrder-edit?sap-app-origin-hint=&/CustomerReturn/"+repeated.current.CustomerReturn+"/edit"
 
 
+**Purchase Order:**
+<img width="1496" alt="image" src="https://user-images.githubusercontent.com/114897342/200475974-b4853b7b-5fa3-4979-8ee3-52c773f2427f.png">
+<img width="852" alt="image" src="https://user-images.githubusercontent.com/114897342/200475994-cbcbb26c-4fa1-41b2-bc8c-6fe5bdcf53f4.png">
+
+
+**Net Value:**
+<img width="1505" alt="image" src="https://user-images.githubusercontent.com/114897342/200476103-604bc068-dba1-4843-86ed-806469d1c120.png">
+<img width="1230" alt="image" src="https://user-images.githubusercontent.com/114897342/200476131-ca95d097-af62-4732-b664-b02832c59c24.png">
+Formula:
+repeated.current.TotalNetAmount + " " + repeated.current.TransactionCurrency
+
+
+**Customer Return Date:**
+<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200476209-64a01722-e38e-4437-9a46-b01dffe4209b.png">
+<img width="1233" alt="image" src="https://user-images.githubusercontent.com/114897342/200476222-cdd337b3-a02b-4c76-b843-b4414efe9675.png">
+Formula: FORMAT_DATETIME_LOCAL(DATETIME(NUMBER(REPLACE_ALL(REPLACE_ALL(repeated.current.CustomerReturnDate, "/Date(",""), ")/",""))),"DD.MM.YYYY")
+
+
+**Overall Status:**
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/114897342/200476275-95f53c09-1063-41f3-a122-06b542bb9815.png">
+<img width="1229" alt="image" src="https://user-images.githubusercontent.com/114897342/200476300-a1dc4c1b-9c6d-4669-a496-05013fa50e0f.png">
+Formula: IF(repeated.current.OverallSDProcessStatus == "A","Open",IF(repeated.current.OverallSDProcessStatus == "B","In Process",IF(repeated.current.OverallSDProcessStatus == "C","Completed","")))
+
+
+10) Go to DATA VARIABLE and Click on Filer Condition
+<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200476451-48d8fefa-3fae-4fbc-b3ed-1b551d3e992c.png">
+<img width="870" alt="image" src="https://user-images.githubusercontent.com/114897342/200476549-d25e2dae-05a2-4627-87b6-bd5bc11a03de.png">
+
+SAVE
+
+
+12) 
 
 
 Continue to - [Exercise 2](../ex2/README.md)
