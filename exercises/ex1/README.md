@@ -346,6 +346,7 @@ Remove "Secondary Label" and Set "Arrow Visible" to "False" in Properties( This 
 
 and Bind this Row with the Data variable "A_Customer Return1" 
 ![image](https://user-images.githubusercontent.com/114897342/200474119-d846928b-f222-4dd0-8b05-d539e9ea1bab.png)
+![image](https://user-images.githubusercontent.com/114897342/200474296-1b303492-02a9-4d4f-95b2-911fda89e7be.png)
 
 
 
