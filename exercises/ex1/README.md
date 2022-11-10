@@ -70,7 +70,7 @@ Designing and Developing AppGyver Extensions
 ![196343467-a42dc73c-09b9-4a0b-aed5-566698ef06b9](https://user-images.githubusercontent.com/114897342/196704134-5a1addc0-d1cf-4f74-b953-faf3f2200777.png)
 
 
-11. You will see a list of BTP Destinations.Note: BTP Destinations listed here are the destinations to your own SAP Service and Sales Cloud Version 2 API destination as it is set up on the BTP sub-account by the SAP AppGyver support team when the SAP Service and Sales Cloud Version 2 system is provisioned.
+11. You will see a list of BTP Destinations.
 
 ![image](https://user-images.githubusercontent.com/114897342/200280171-6461b065-d07d-44a7-9d07-85a1d706ce62.png)
 
