@@ -237,7 +237,7 @@ Enter the Formula: pageVars.selected_tab.value === "1" ? true : false
 Click on "Save".
 
 
-36. Drag and Drop Text inside the container and rename it as Service Order
+36. Drag and Drop Text inside the container and rename it as Service Orders
 ![image](https://user-images.githubusercontent.com/114897342/200482604-45e7fdc4-4452-4b4c-80e1-d68f9b63f5b0.png)
 
 
