@@ -60,7 +60,7 @@ Designing and Developing AppGyver Extensions
 ![196343237-b996fa5b-9ec1-4ba4-9e4c-5281f38ac93a](https://user-images.githubusercontent.com/114897342/196703660-9f4680f1-9474-4044-9654-840b38b8dad5.png)
 
 
-9. Navigate to the Data tab, Integrate with SAP Service and Sales Cloud Version 2 using BTP destinations and REST API content in your SAP AppGyver App. Select the ADD INTEGRATION.
+9. Navigate to the Data tab, Select the ADD INTEGRATION.
 
 
 ![196343422-3a667025-c976-43cb-8938-13e2cfbf66d0](https://user-images.githubusercontent.com/114897342/196704000-07c2326c-f993-4908-b543-a6fef56be525.png)
