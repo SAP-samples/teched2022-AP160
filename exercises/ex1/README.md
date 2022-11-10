@@ -133,7 +133,7 @@ Click on SAVE
 ![196356409-3b278e0a-5c97-4c54-8b6c-583e939e45fd](https://user-images.githubusercontent.com/114897342/196706599-47ce18c3-187a-4e56-8e52-97d3d2a7ee0f.png)
 
 
-22. Add New Property as "label"
+22. Enter property name as "label" and click on "+" icon to add property
 
 
 ![196356812-d075ed97-0300-48ff-9f1d-1a5930bf1a40](https://user-images.githubusercontent.com/114897342/196706872-d647242d-20d0-4695-967c-139c5046592b.png)
