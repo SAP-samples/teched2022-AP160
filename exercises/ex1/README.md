@@ -31,7 +31,7 @@ Designing and Developing AppGyver Extensions
 <img width="1506" alt="196338720-48bbce42-a9c4-4c1a-8dc1-a8becbad7af6" src="https://user-images.githubusercontent.com/114897342/196702022-224a67e1-9502-45d2-b26f-7249ea5274ee.png">
 
 
-2. A pop-up is displayed as shown below.
+2. Click on create opens as new tab and shows a pop-up.
 
 ![196338203-da85f68c-8d86-4120-91a1-b425181a1e50](https://user-images.githubusercontent.com/114897342/196702312-1052a66d-f517-4ff4-85e3-e93ca819345a.png)
 
