@@ -70,14 +70,13 @@ Designing and Developing AppGyver Extensions
 ![196343467-a42dc73c-09b9-4a0b-aed5-566698ef06b9](https://user-images.githubusercontent.com/114897342/196704134-5a1addc0-d1cf-4f74-b953-faf3f2200777.png)
 
 
-11. You will see a list of BTP Destinations.
+11. You will see a list of BTP Destinations and Click on "S4HANACLOUD_CUSTRETURNS"
 
 ![image](https://user-images.githubusercontent.com/114897342/200280171-6461b065-d07d-44a7-9d07-85a1d706ce62.png)
 
 
-12. Click on DESTINATION "S4HANACLOUD_CUSTRETURNS"
+12. Click on "INSTALL INTEGRATION"
 
-Click on "INSTALL INTGRATION"
 ![image](https://user-images.githubusercontent.com/114897342/200292529-685b2c31-8254-483e-a3fa-641a8899c8fb.png)
 
 Click on "ENABLE DATA ENTRY" and SAVE
@@ -85,7 +84,20 @@ Click on "ENABLE DATA ENTRY" and SAVE
 
 <img width="1502" alt="196344152-cd6dbb6f-7d37-4bea-ace1-c8909159c5a7" src="https://user-images.githubusercontent.com/114897342/196704914-41fa6067-51f7-4cd2-8aa4-df4fff5669ad.png">
 
-Repeat the same for DESTINATION "S4HANACLOUD_SO"
+Click on Exit 
+![image](https://user-images.githubusercontent.com/114897342/200998672-a23cade1-d9fc-4b89-ae9c-96c6c792b501.png)
+
+Click on "ADD INTEGRATION"
+![image](https://user-images.githubusercontent.com/114897342/200998989-7c643013-0e54-4fde-a506-6630a8c96421.png)
+
+Click on "BTP Destinations" 
+![image](https://user-images.githubusercontent.com/114897342/200999237-053c7bdd-7337-4a84-aa34-467ecd1f6f4b.png)
+
+You will see the "BTP Destination" for Service Order 
+![image](https://user-images.githubusercontent.com/114897342/200999348-371655f8-b1de-4954-9e2a-2243c8980ea1.png)
+
+
+Repeat the steps 11 and 12 for DESTINATION "S4HANACLOUD_SO"
 <img width="1501" alt="196344105-1f9e788d-1e04-460b-b3fd-72ad09339758" src="https://user-images.githubusercontent.com/114897342/196704683-d7ad35e7-5de5-43aa-ad9a-399a6ce54869.png">
 
 
