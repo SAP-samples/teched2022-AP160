@@ -145,8 +145,15 @@ Click on SAVE
 ![196358489-0ce26026-b204-44d5-a914-276cc717dafd](https://user-images.githubusercontent.com/114897342/196706977-e82d7201-8e6c-4535-94c7-eeb24cfcc630.png)
 
 
-24. Add one more Page Variable and rename it to selected_tab and Click SAVE
+24. Add one more Page Variable "selected_tab" as object 
+
+![image](https://user-images.githubusercontent.com/114897342/201000377-d319f5b0-a3f4-4bcf-b520-f265d0f263af.png)
+
+add a property "value" as Text. "id" property is added by default. 
+
 ![196359354-450cde49-2822-4d13-b304-2d2fa8971501](https://user-images.githubusercontent.com/114897342/196707072-bc691e1f-3322-4d53-9fef-4c5098551cfd.png)
+
+Click on "id" property name and click on "Remove from Page"
 
 
 25. Go back to the View and Click on Tabs in Properties
