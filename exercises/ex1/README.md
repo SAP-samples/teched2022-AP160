@@ -208,24 +208,33 @@ Click "Save".
 ![196362016-d5d8bf82-2ccb-4989-97d2-9ee3b3299a5b](https://user-images.githubusercontent.com/114897342/196707886-3b218af3-85f5-4f4f-b4c1-c008adc40a1e.png)
 
 
-32. Drag and Drop "Input Field" into the UI Canvas
+32. DNavigate to "Core" in the Marketplace.
+    Drag and Drop an "Input Field " into the UI Canvas under the Soft Tab. Change the Label to "Sales Org".
+               
 
 <img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200467460-3231c3a7-8fd3-4f1d-bccc-d7df0a5a75fa.png">
 
+ Click "Save".
 
-33. Go to Variables and then click on "ADD DATA VARIABLES".One for the Service Order and One for the Customer's Return
+33. Go to Variables and "Add Data Variable for Customer Return and Service Order".
 
 <img width="1508" alt="196407213-aa09a4be-b1e3-4708-93ab-23a0119a1201" src="https://user-images.githubusercontent.com/114897342/196708950-8cce7c93-f861-4828-a06a-bfda5b155e6f.png">
 
-34. Drag and Drop the container and Rename it as Service Orders
+34. Drag and Drop a "Container" and rename it to "Service Orders" from the Advanced Properties.
 
 ![image](https://user-images.githubusercontent.com/114897342/200482348-9408cfe0-6743-4406-b421-c7da2af315d4.png)
 
 
 
-35. Set Visible property with the following formula
+35. Click on "Visible" icon in the additional properties.
+![image](https://user-images.githubusercontent.com/114897342/201006861-f5d371fe-b76f-4c51-aa05-955707958624.png)
+
+Select "Formula" from the pop-up.
+Enter the Formula: pageVars.selected_tab.value === "1" ? true : false
 
 ![image](https://user-images.githubusercontent.com/114897342/200282719-86fa1c73-8551-44f6-b404-cb355eb1507c.png)
+
+Click on "Save".
 
 
 36. Drag and Drop Text inside the container and rename it as Service Order
