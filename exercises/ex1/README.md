@@ -156,36 +156,55 @@ add a property "value" as Text. "id" property is added by default.
 Click on "id" property name and click on "Remove from Page"
 
 
-25. Go back to the View and Click on Tabs in Properties
+25. Go back to the View.  Add "Click on soft tabs added in the UI Canvas". Click on Tabs "icon" in Properties.
+
+![image](https://user-images.githubusercontent.com/114897342/201005762-1c99b18b-6a99-4c49-81a8-6fd5629e554c.png)
+
+
+In the pop-up, select "Data and Variables".
+![image](https://user-images.githubusercontent.com/114897342/201005324-a5f7c1c0-be33-4380-8034-07e6b489cf24.png)
+
+              
+In the pop-up, select "Page Variable".
+![image](https://user-images.githubusercontent.com/114897342/201005532-6f74073b-dc02-40a2-8325-604d49b5b2f5.png)
+
+![image](https://user-images.githubusercontent.com/114897342/201005602-9e8d4c90-8858-4040-a8ec-25b2c3b741ed.png)
 
 
 
-![196359772-59ec267d-da26-4088-853c-f92655f830ae](https://user-images.githubusercontent.com/114897342/196707306-146dddb5-c245-4573-bd3d-6e0d2a710db5.png)
 
-
-26. Bind it with the Page variable "orders"
+26. Click on page variable "orders". Click on "Save".
 ![196360117-1e49c158-ff85-4b5c-8f26-3474e657de7a](https://user-images.githubusercontent.com/114897342/196707391-8d790dca-9c71-4e8d-9e91-f5bc12ea13f2.png)
 
 
-27. Add Logic to "Soft tabs 1"
+27.  Click on "Add logic to SOFT TABS 1" at the bottom of the page.
 
 ![196360792-78a4a6e9-7a8b-495e-8474-b7475b3d894c](https://user-images.githubusercontent.com/114897342/196707463-3f612330-fa03-4859-ad53-abe34d6f4d1c.png)
 
-28. Drag "Recieve event" into LOGIC and go to Event Source
+28. Drag "Recieve event" into LOGIC and go to Event Source. Add additional text "Select Property 'Active tab id' changed" in the event source.
 
 ![196361121-f05a2fa9-ba77-4231-b71d-21f3ce49aed6](https://user-images.githubusercontent.com/114897342/196707538-f323f017-9ae5-48d9-a3e5-6e39e79a0632.png)
 
 
-29. Set page variable and connect Event to Page variable
+29. "Set Page Variable" and connect to Event by dragging a connector using the "dots".
 ![196361608-5381eb23-5c7b-44dc-9b70-0e73accea59b](https://user-images.githubusercontent.com/114897342/196707611-4b4279d6-3bb0-4d41-8297-f75adf175cf5.png)
 
 
-30. Choose a Variable name
+30. Click on "Variable Name" and select binding type as "Page Variable". 
+
+![image](https://user-images.githubusercontent.com/114897342/201006346-d141ea8c-74ec-44bb-9304-fa16568ea7b3.png)
+
 
 ![196361796-821c4491-4718-481d-bb4c-acaa89bd466e](https://user-images.githubusercontent.com/114897342/196707773-91d375c4-7637-4322-acc4-1a91408e2938.png)
 
+Next, select logic node as "Receive Event".
+Next, select node output as "Event Object".
+Click "Save".
 
-31. Choose the Assigned value
+31. Click on "Assigned Variable" icon and select "Output value of other node"
+![image](https://user-images.githubusercontent.com/114897342/201006432-bcab56bd-e45a-4312-8e7a-3ee70baaf085.png)
+
+
 ![196362016-d5d8bf82-2ccb-4989-97d2-9ee3b3299a5b](https://user-images.githubusercontent.com/114897342/196707886-3b218af3-85f5-4f4f-b4c1-c008adc40a1e.png)
 
 
