@@ -52,7 +52,7 @@ Designing and Developing AppGyver Extensions
 
 ![196343083-60d9ebc1-6c3a-42b8-994d-23b2ee00496c](https://user-images.githubusercontent.com/114897342/196703335-50da826f-d7a6-4970-bece-8cedc8961b19.png)
 
-7. Click OK. image
+7. Click OK.
 ![196343154-852ad308-8b54-41d9-865c-89e7adb10011](https://user-images.githubusercontent.com/114897342/196703455-80ab43bf-584f-4893-bcdd-56ae076fbdfc.png)
 
 8. Click Only Web in BPT configuration and the Save BTP Configuration button.
@@ -152,7 +152,7 @@ Click on SAVE
 ![196360117-1e49c158-ff85-4b5c-8f26-3474e657de7a](https://user-images.githubusercontent.com/114897342/196707391-8d790dca-9c71-4e8d-9e91-f5bc12ea13f2.png)
 
 
-27. Add Logic to "Soft tabs 1" image
+27. Add Logic to "Soft tabs 1"
 
 ![196360792-78a4a6e9-7a8b-495e-8474-b7475b3d894c](https://user-images.githubusercontent.com/114897342/196707463-3f612330-fa03-4859-ad53-abe34d6f4d1c.png)
 
