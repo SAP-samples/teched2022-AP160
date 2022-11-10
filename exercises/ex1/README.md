@@ -248,8 +248,19 @@ Click on "Save".
 
 38. Drag and Drop "List Section Header" in each of these cells as shown below
 
-<img width="1509" alt="image" src="https://user-images.githubusercontent.com/114897342/200468177-3a91b3d2-e5cb-4c14-becc-10b73e5a25a9.png">
+![image](https://user-images.githubusercontent.com/114897342/201015081-9b550bfa-e723-431d-86af-16c06b040f13.png)
 
+Rename First Section Header as "Service Order" 
+![image](https://user-images.githubusercontent.com/114897342/201015338-1554639e-6033-478c-be02-01ba2905b76f.png)
+
+Similarly Second section Header as "Description"
+Third section header as "Requested Start Date"
+Fourth section header as "Requested End Date"
+Fifth section header as "Order Status"
+Sixth section header as "Release Status" 
+
+<img width="1509" alt="image" src="https://user-images.githubusercontent.com/114897342/200468177-3a91b3d2-e5cb-4c14-becc-10b73e5a25a9.png">
+Click on SAVE.
 
 Drag and Drop one more Row inside the container and set the layout as 6 Cells
 
