@@ -107,10 +107,6 @@ Repeat the steps 11 and 12 for DESTINATION "S4HANACLOUD_SO"
 14. Search for "Soft tabs"
 <img width="1509" alt="image" src="https://user-images.githubusercontent.com/114897342/200294301-eb9eeead-78bb-4c8a-aa36-56791677e9d0.png">
 
-
-
-![196350050-989661cc-0843-47f1-a9c4-d64f798beb43](https://user-images.githubusercontent.com/114897342/196705386-4cf67d32-9d57-4ebd-b8a9-3258e76e5d51.png)
-
 15. Click on the "Soft tab" and INSTALL
 
 <img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200294591-f5e25c55-0597-4ed1-bfd0-6835cbea1636.png">
