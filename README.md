@@ -10,7 +10,7 @@ This session introduces attendees to Design and Develop extensions in AppGyver a
 
 The hands-on session will involve two exercises.
 
-* Design and Develop extension in AppGyver and Embed as Mash up in SAP Sales and Service Cloud Version 2
+* Design and Develop extension in AppGyver
 * Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2
 
 ## Requirements
@@ -29,7 +29,7 @@ Demo Tenants:
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
-- [Exercise 1 - Design and Develop extension in AppGyver and Embed as Mash up in SAP Sales and Service Cloud Version 2](exercises/ex1/)
+- [Exercise 1 - Design and Develop extension in AppGyver](exercises/ex1/)
 - [Exercise 2 - Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2](exercises/ex2/)
 
 **IMPORTANT**
