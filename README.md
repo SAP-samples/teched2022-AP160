@@ -1,25 +1,17 @@
-# Session ID - Session Title
+# AP160 - One Office in Customer Sales Activities and Service Engagements
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2022 session called AP160 - One Office in Customer Sales Activities and Service Engagements.  
 
 ## Overview
 
-This repository contains the material for the SAP TechEd 2022 session - Design and Develop Extensions on SAP Service and Sales Cloud Version 2 Using SAP AppGyver
-
-Overview This session introduces attendees to Design and Develop extensions in AppGyver and Embed extension as a mashup in SAP Sales and Service Cloud Version 2. In this session you learn about:
+This session introduces attendees to Design and Develop extensions in AppGyver and Embed extension as a mashup in SAP Sales and Service Cloud Version 2.
 
 The hands-on session will involve two exercises.
 
-Design and Develop extension in AppGyver and Embed as Mash up in SAP Sales and Service Cloud Version 2
-Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2
-Design and Develop an extension in AppGyver and Embed it as Mash up in SAP Sales and Service Cloud Version 2
-log in to SAP Service Cloud Version 2 or SAP Sales Cloud Version 2.
-
-![image](https://user-images.githubusercontent.com/114510488/196600192-2cf14dd4-4845-489e-8a65-a9fe6fe51064.png)
-
-Navigate to the app switcher, and choose AppGyver. AppSwitcher
+* Design and Develop extension in AppGyver and Embed as Mash up in SAP Sales and Service Cloud Version 2
+* Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2
 
 ## Requirements
 
