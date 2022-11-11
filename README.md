@@ -15,24 +15,22 @@ The hands-on session will involve two exercises.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The participants will be required to access the SAP Sales and Service Cloud Version 2 Demo Tenant to check and complete your exercises. We have created Users for each of the participants already and you should have been handed over Tenant access credentials. If you have any issues, please reach out to one of the Speaker to help you.
+
+The assigned tenant can be accessed by CMD+Click or CTRL+Click (to open in NEW TAB) demo tenant link below.
+
+Demo Tenants:
+* [my1000112.de1.demo.crm.cloud.sap](https://my1000112.de1.demo.crm.cloud.sap/)
+* [my1000114.de1.demo.crm.cloud.sap](https://my1000114.de1.demo.crm.cloud.sap/)
+* [my1000115.de1.demo.crm.cloud.sap](https://my1000115.de1.demo.crm.cloud.sap/)
+* [my1000116.de1.demo.crm.cloud.sap](https://my1000116.de1.demo.crm.cloud.sap/)
 
 ## Exercises
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+- [Exercise 1 - Design and Develop extension in AppGyver and Embed as Mash up in SAP Sales and Service Cloud Version 2](exercises/ex1/)
+- [Exercise 2 - Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2](exercises/ex2/)
 
 **IMPORTANT**
 
