@@ -55,16 +55,25 @@ If anyone is interested in developing from scratch, the following wiki [Developi
 7. For First Row , Drag and Drop "List Section Header" into each of the Cells and Rename as Shown Below
 ![image](https://user-images.githubusercontent.com/117337025/201441793-9b381464-a84b-4c2f-8a89-057242dcaaee.png)
 
-7) For Seconf Row (Row 4), 
+9. We would need a Link Button for the exercise which is not part of the Core controls. Click on "MARKETPLACE".
+![image](https://user-images.githubusercontent.com/117337025/201442746-6511d99f-5092-464f-8133-c155a4e14535.png)
 
-For the First Cell, Drag and Drop "Link Button"
-<img width="1509" alt="image" src="https://user-images.githubusercontent.com/114897342/200473365-458929d0-b3e2-4d26-8bea-fc149f02f3da.png">
+10. Search for "Link button" in the marketplace.
+![image](https://user-images.githubusercontent.com/117337025/201442806-404cf725-1ead-433a-8239-cd71b39d1da7.png)
 
-For the Second Cell on wards, Drag and Drop "List Item" into the Cells
-<img width="1502" alt="image" src="https://user-images.githubusercontent.com/114897342/200473486-c2f57f91-baa4-4043-9aa7-005193c715a5.png">
+11. Click on the "Link button" and click "Install".
+![image](https://user-images.githubusercontent.com/117337025/201442916-9040b579-d4b0-4398-827d-2acc8db20f5a.png)
 
-Remove "Secondary Label" and Set "Arrow Visible" to "False" in Properties( This is an optional activity)
-![image](https://user-images.githubusercontent.com/114897342/200473856-58648556-eaf2-4a10-a716-2c94becda8b9.png)
+12. Check the "INSTALLED" tab and you will find the "Link button" installed.
+![image](https://user-images.githubusercontent.com/117337025/201442999-50cd989e-47ec-415e-9138-92cb44c756c9.png)
+
+13. For Second Row, <br/>
+Drag and Drop "Link Button" to the First Cell <br/>
+![image](https://user-images.githubusercontent.com/117337025/201443081-5fd62c99-eb1f-42c5-ae7e-0e5d4f35c0d3.png)<br/>
+For the Second Cell on wards, Drag and Drop "List Item" into the Cells <br/>
+![image](https://user-images.githubusercontent.com/117337025/201443138-8c223d8e-1f9b-47da-aea7-d6370685336c.png)<br/>
+Remove "Secondary Label" and Set "Arrow Visible" to "False" in Properties( This is an optional activity)<br/>
+![image](https://user-images.githubusercontent.com/117337025/201443209-d7e0c37c-b1f8-4065-9fa3-ca3e7408b43a.png)<br/>
 
 8) Choose Second Row (Row 4) and Click on "Repeat with" in Properties
 
