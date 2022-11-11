@@ -1,29 +1,24 @@
-This repository contains the material for the SAP TechEd 2022 session - Design and Develop Extensions on SAP Service and Sales Cloud Version 2 Using SAP AppGyver
+# Design and Develop extension in AppGyver
+The following exercise will provide detailed steps to develop a sample extension in AppGyver.
 
-Overview This session introduces attendees to Design and Develop extensions in AppGyver and Embed extension as a mashup in SAP Sales and Service Cloud Version 2. In this session you learn about:
+## Demo Tenants
+* [my1000112.de1.demo.crm.cloud.sap](https://my1000112.de1.demo.crm.cloud.sap/)
+* [my1000114.de1.demo.crm.cloud.sap](https://my1000114.de1.demo.crm.cloud.sap/)
+* [my1000115.de1.demo.crm.cloud.sap](https://my1000115.de1.demo.crm.cloud.sap/)
+* [my1000116.de1.demo.crm.cloud.sap](https://my1000116.de1.demo.crm.cloud.sap/)
 
-The hands-on session will involve two exercises.
+## Authenticate and accessing AppGyver in SAP Sales and Service Cloud Version 2 
+1. Access the Tenant assigned and Login using SSO. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201430903-b1148253-be20-4ae3-9bb0-f71647c3402f.png)
 
-* Design and Develop extension in AppGyver and Embed as Mash up in SAP Sales and Service Cloud Version 2
-* Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2
+2. Use the credentials assigned to Login to SAP Sales and Service Cloud Version 2. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201431214-b8eed869-9442-4850-b9cd-e54424dc41f2.png)
 
-
-Design and Develop extension in AppGyver and Embed as Mash up in SAP Sales and Service Cloud Version 2
------------------------------------------------------------------------------------------------------------------------
-
-1. log in to SAP Service Cloud Version 2 or SAP Sales Cloud Version 2.
-
-2. Navigate to the app switcher, and choose AppGyver.
-
-
+3. Navigate to the app switcher, and choose AppGyver. <br/>
 ![196336426-951f9368-cffa-4fc0-b772-32e13fbd8616](https://user-images.githubusercontent.com/114897342/196701140-4f597e67-2f8c-4221-9483-8b2547a4f60f.gif)
 
-3. A new browser tab opens, displaying the AppGyver lobby
-
-
-
-![196337870-571a4437-84b3-4157-9809-3a15624dafd3](https://user-images.githubusercontent.com/114897342/196701334-80e58b5b-28e1-435a-b339-e8761fe8a236.png)
-
+4. A new browser tab opens, displaying the AppGyver lobby. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201432280-6b9517f0-9436-4754-9b9a-185a82654347.png)
 
 Designing and Developing AppGyver Extensions
 -----------------------------------------------------------------------------------------------------------------------
