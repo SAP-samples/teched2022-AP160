@@ -37,52 +37,72 @@ If anyone is interested in developing from scratch, the following wiki [Developi
 3. Change the Page selection to "Empty Page". <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201437519-9461abf7-8308-4edb-8bda-93c9c0bb97c4.png)
 
-4. Pull the container into the Canvas From the Left Option Bar. <br/>
+4. Click on "VARIABLES" to define Data Variables.
+![image](https://user-images.githubusercontent.com/117337025/201445350-6d4bafa9-4772-461d-8460-1063fc91a71f.png)
+
+5. Select "DATA VARIABLES" from Left Navigation.
+![image](https://user-images.githubusercontent.com/117337025/201445385-6e7f5013-c563-444f-a4b1-cc4b2cdc6e0a.png)
+
+6. Click on "ADD DATA VARIABLE" and select "A.
+![image](https://user-images.githubusercontent.com/117337025/201445443-2e5d4a71-38bb-4a27-9a46-507546e982a1.png) <br/>
+![image](https://user-images.githubusercontent.com/117337025/201445469-bd346ae7-19f1-49e6-8efa-a46facd02030.png) <br/>
+
+7. You should see a new Data Variable "A-CustomerReturn1" in the list.
+![image](https://user-images.githubusercontent.com/117337025/201445526-c8292e34-f3cc-4ccd-b995-678f7ea96150.png)
+
+8. Pull the container into the Canvas From the Left Option Bar. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201440796-ae91df62-b5c7-4625-bb5a-0ec533fd1246.png)
 
-5. Rename the Container as "Customer Returns" using "ADVANCED PROPERTIES" of the container. <br/>
+9. Rename the Container as "Customer Returns" using "ADVANCED PROPERTIES" of the container. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201438498-fe980bd2-14ac-4229-8275-c62fcee69951.png)
 
-6. Drag and Drop "Text" inside the Container and change content to "Customer Returns". <br/>
+10. Drag and Drop "Text" inside the Container and change content to "Customer Returns". <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201440915-28c6a8e1-98a3-4a74-9ef3-f8d56217b460.png)
 
-7. Drag and drop 2 "Row" inside the Container. The First Row will used to design the List Header and the Second Row will be used to design the List Content. <br/>
+11. Drag and drop 2 "Row" inside the Container. The First Row will used to design the List Header and the Second Row will be used to design the List Content. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201441042-0080473d-42cf-485b-be89-0233e2bdd833.png)
 
-8. Set the number of Row Cells to 5 in Layout options of the Row. <br/>
+12. Set the number of Row Cells to 5 in Layout options of the Row. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201441234-046b1f49-47cc-43bb-b84b-ef4554eea803.png)
 
-7. For First Row , Drag and Drop "List Section Header" into each of the Cells and Rename as Shown Below
+13. For First Row , Drag and Drop "List Section Header" into each of the Cells and Rename as Shown Below
 ![image](https://user-images.githubusercontent.com/117337025/201441793-9b381464-a84b-4c2f-8a89-057242dcaaee.png)
 
-9. We would need a Link Button for the exercise which is not part of the Core controls. Click on "MARKETPLACE".
+14. We would need a Link Button for the exercise which is not part of the Core controls. Click on "MARKETPLACE".
 ![image](https://user-images.githubusercontent.com/117337025/201442746-6511d99f-5092-464f-8133-c155a4e14535.png)
 
-10. Search for "Link button" in the marketplace.
+15. Search for "Link button" in the marketplace.
 ![image](https://user-images.githubusercontent.com/117337025/201442806-404cf725-1ead-433a-8239-cd71b39d1da7.png)
 
-11. Click on the "Link button" and click "Install".
+16. Click on the "Link button" and click "Install".
 ![image](https://user-images.githubusercontent.com/117337025/201442916-9040b579-d4b0-4398-827d-2acc8db20f5a.png)
 
-12. Check the "INSTALLED" tab and you will find the "Link button" installed.
+17. Check the "INSTALLED" tab and you will find the "Link button" installed.
 ![image](https://user-images.githubusercontent.com/117337025/201442999-50cd989e-47ec-415e-9138-92cb44c756c9.png)
 
-13. For Second Row, <br/>
+18. For Second Row, <br/>
 Drag and Drop "Link Button" to the First Cell <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201443081-5fd62c99-eb1f-42c5-ae7e-0e5d4f35c0d3.png)<br/>
-For the Second Cell on wards, Drag and Drop "List Item" into the Cells <br/>
+
+19. For the Second Cell on wards, Drag and Drop "List Item" into the Cells <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201443138-8c223d8e-1f9b-47da-aea7-d6370685336c.png)<br/>
 Remove "Secondary Label" and Set "Arrow Visible" to "False" in Properties( This is an optional activity)<br/>
 ![image](https://user-images.githubusercontent.com/117337025/201443209-d7e0c37c-b1f8-4065-9fa3-ca3e7408b43a.png)<br/>
 
-8) Choose Second Row (Row 4) and Click on "Repeat with" in Properties
+20. Choose Second Row and Click on "Repeat with" in Properties. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201444973-ec21be86-6c8c-4c74-891c-bc1c0af7b76f.png) <br/>
 
-![image](https://user-images.githubusercontent.com/114897342/200474027-4387067d-3cfa-45a0-8a72-0ecdefff9dac.png)
+21. Select "Data and Variables". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201445104-e64e6fa0-18e5-4d68-9df9-e4caecba251a.png) <br/>
 
-and Bind this Row with the Data variable "A_Customer Return1" 
-![image](https://user-images.githubusercontent.com/114897342/200474119-d846928b-f222-4dd0-8b05-d539e9ea1bab.png)
-![image](https://user-images.githubusercontent.com/114897342/200474296-1b303492-02a9-4d4f-95b2-911fda89e7be.png)
-![image](https://user-images.githubusercontent.com/114897342/200474577-b6edc20f-f6be-4f08-bac2-48865a681ebb.png)
+22. Select "DATA VARIABLE". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201445151-9d1e846f-f4d3-4d57-8c69-d8ac12398c57.png) <br/>
+
+23. Select "A_CustomerReturn1". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201445711-4b8ca366-9ec2-4fc5-9dfc-7d087987cd4c.png) <br/>
+
+24. Click "Save".
+![image](https://user-images.githubusercontent.com/117337025/201445724-830d8260-1e23-45e8-a9de-9990211e3e0b.png) <br/>
 
 9) Now Bind each of these Five fields as below
 
