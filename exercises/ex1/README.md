@@ -37,17 +37,17 @@ If anyone is interested in developing from scratch, the following wiki [Developi
 3. Change the Page selection to "Empty Page". <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201437519-9461abf7-8308-4edb-8bda-93c9c0bb97c4.png)
 
-4. Click on "VARIABLES" to define Data Variables.
+4. Click on "VARIABLES" to define Data Variables. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201445350-6d4bafa9-4772-461d-8460-1063fc91a71f.png)
 
-5. Select "DATA VARIABLES" from Left Navigation.
+5. Select "DATA VARIABLES" from Left Navigation. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201445385-6e7f5013-c563-444f-a4b1-cc4b2cdc6e0a.png)
 
-6. Click on "ADD DATA VARIABLE" and select "A.
+6. Click on "ADD DATA VARIABLE" and select "A. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201445443-2e5d4a71-38bb-4a27-9a46-507546e982a1.png) <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201445469-bd346ae7-19f1-49e6-8efa-a46facd02030.png) <br/>
 
-7. You should see a new Data Variable "A-CustomerReturn1" in the list.
+7. You should see a new Data Variable "A-CustomerReturn1" in the list. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201445526-c8292e34-f3cc-4ccd-b995-678f7ea96150.png)
 
 8. Pull the container into the Canvas From the Left Option Bar. <br/>
@@ -103,6 +103,46 @@ Remove "Secondary Label" and Set "Arrow Visible" to "False" in Properties( This 
 
 24. Click "Save".
 ![image](https://user-images.githubusercontent.com/117337025/201445724-830d8260-1e23-45e8-a9de-9990211e3e0b.png) <br/>
+
+25. You would see the List Data now showing as Repeated Rows. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201446015-efc619c5-6a6e-48ae-b525-e4525402d6b5.png)
+
+26. We will bind the "Return Order" column data. Click on the data cell for "Return Order" column. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201446223-688fc59a-0c91-4dac-b9e5-76444c09b5e3.png) <br/>
+Click on "Label" icon in the "PROPERTIES". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201446283-23b92106-4c43-4077-a9b5-23b389073493.png) <br/>
+Click on "Data item in repeat". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201446328-6e4223e7-c23f-431f-8e88-4efcaace1817.png) <br/>
+Select "current". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201446358-4835119c-0e46-4894-b1e6-0c498d2d5da1.png) <br/>
+In the "Select repeat data property", scroll and select "CustomerReturn" under "current". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201446427-23eadd9f-b30a-4da8-a1cf-9f9ba04c5de1.png)
+Set preview values as "Return" and click "SAVE". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201446464-fb0eb0b8-7672-4568-8e7f-41eefa4253dc.png)
+
+27. Similarly, bind the "Purchase Order" column data. Click on the data cell for "Purchase Order" column. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201446609-83406285-f6e5-476a-87b4-84833c336793.png) <br/>
+Click on "Label" icon in the "PROPERTIES". <br/>
+Click on "Data item in repeat". <br/>
+Select "current". <br/>
+In the "Select repeat data property", scroll and select "PurchaseOrderByCustomer" under "current". <br/>
+Set preview values as "Purchase Order" and click "SAVE". <br/>
+
+28. We will now bind a Formula to the "Net Value" column data. Click on the data cell for "Net Value" column. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201446946-4d9530ba-89cb-4a3c-9687-66082508bdb0.png) <br/>
+Click on "Label" icon in the "PROPERTIES". <br/>
+Click on "Formula". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201447015-195122cc-4713-4972-b64a-05308bc405d3.png) <br/>
+Click on "Formula" again. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201447042-429da76e-47f6-45e0-a9db-08c313c883c1.png) <br/>
+Enter the following Formula to show value as Amount + Currency. <br/>
+```
+repeated.current.TotalNetAmount + " " + repeated.current.TransactionCurrency
+```
+![image](https://user-images.githubusercontent.com/117337025/201447153-834ecab8-3c4f-4752-b860-87f41ec15e82.png) <br/>
+Click on "SAVE". <br/>
+Set preview values as "Purchase Order" and click "SAVE". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201447219-ffbc4cd1-ac52-40da-8ce1-812a14877d66.png) <br/>
 
 9) Now Bind each of these Five fields as below
 
