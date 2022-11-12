@@ -54,7 +54,19 @@ If anyone is interested in developing from scratch, the following wiki [Developi
 ![image](https://user-images.githubusercontent.com/117337025/201440796-ae91df62-b5c7-4625-bb5a-0ec533fd1246.png)
 
 9. Rename the Container as "Customer Returns" using "ADVANCED PROPERTIES" of the container. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201438498-fe980bd2-14ac-4229-8275-c62fcee69951.png)
+![image](https://user-images.githubusercontent.com/117337025/201438498-fe980bd2-14ac-4229-8275-c62fcee69951.png) <br/>
+Click on "Visible" icon in "ADVANCED PROPERTIES". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201449743-9be2e6c9-6ee3-4245-9b7c-c9d7adb75027.png) <br/>
+Select "Formula". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201449765-8f88c3ab-1fb5-4513-8cce-191e2ab83a78.png) <br/>
+Click on "Formula" again. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201449777-3fdd1773-ef63-4ca3-ae70-9d092c3897be.png) <br/>
+Enter the following formula and click "SAVE". <br/>
+```
+pageVars.selected_tab.value === "2" ? true : false
+```
+![image](https://user-images.githubusercontent.com/117337025/201449834-cefb7014-3284-486c-9590-7b7da16c8313.png) <br/>
+Click "SAVE".
 
 10. Drag and Drop "Text" inside the Container and change content to "Customer Returns". <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201440915-28c6a8e1-98a3-4a74-9ef3-f8d56217b460.png)
@@ -227,79 +239,6 @@ Enter "1710" in the "Sales Org" input Field". <br/>
 Click on "Service Orders". <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201449350-1b46472b-b86b-45ce-af37-66fa06c5c04a.png) <br/>
 Click on "Customer Returns". <br/>
-
-
-9) Now Bind each of these Five fields as below
-
-**Return Order:**
-<img width="1506" alt="image" src="https://user-images.githubusercontent.com/114897342/200474770-9fe2295f-d609-43c3-a279-0de67354f8c5.png">
-
-![image](https://user-images.githubusercontent.com/114897342/200474891-b9c09306-49d3-41cf-acde-352fb2775642.png)
-
-Click on Show logic for "Link BUTTON 2"
-![image](https://user-images.githubusercontent.com/114897342/200475096-dd45d32b-90ba-4d40-aed0-b2bdd7b4e77a.png)
-
-Go to the "MARKETPLACE" and Search "Open URL" 
-![image](https://user-images.githubusercontent.com/114897342/200475287-f256853f-821c-42ca-b0f4-77aa4e5e6edf.png)
-
-"INSTALL" the Open URL
-![image](https://user-images.githubusercontent.com/114897342/200475360-79333214-9819-4e44-9ab4-fc9609a12ee1.png)
-
-Drag and Drop "Open URL" into the Canvas and connect EVENT to Open URL
-![image](https://user-images.githubusercontent.com/114897342/200475706-1601d965-8adf-4856-ac3c-7368ce9c67c1.png)
-
-![image](https://user-images.githubusercontent.com/114897342/200475786-104c8cec-2e42-4a56-9137-074a6a42bd0a.png)
-
-Formula: 
-"https://my300047.s4hana.ondemand.com/ui#ReturnsOrder-edit?sap-app-origin-hint=&/CustomerReturn/"+repeated.current.CustomerReturn+"/edit"
-
-
-**Purchase Order:**
-<img width="1496" alt="image" src="https://user-images.githubusercontent.com/114897342/200475974-b4853b7b-5fa3-4979-8ee3-52c773f2427f.png">
-<img width="852" alt="image" src="https://user-images.githubusercontent.com/114897342/200475994-cbcbb26c-4fa1-41b2-bc8c-6fe5bdcf53f4.png">
-
-
-**Net Value:**
-<img width="1505" alt="image" src="https://user-images.githubusercontent.com/114897342/200476103-604bc068-dba1-4843-86ed-806469d1c120.png">
-<img width="1230" alt="image" src="https://user-images.githubusercontent.com/114897342/200476131-ca95d097-af62-4732-b664-b02832c59c24.png">
-Formula:
-repeated.current.TotalNetAmount + " " + repeated.current.TransactionCurrency
-
-
-**Customer Return Date:**
-<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200476209-64a01722-e38e-4437-9a46-b01dffe4209b.png">
-<img width="1233" alt="image" src="https://user-images.githubusercontent.com/114897342/200476222-cdd337b3-a02b-4c76-b843-b4414efe9675.png">
-Formula: FORMAT_DATETIME_LOCAL(DATETIME(NUMBER(REPLACE_ALL(REPLACE_ALL(repeated.current.CustomerReturnDate, "/Date(",""), ")/",""))),"DD.MM.YYYY")
-
-
-**Overall Status:**
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/114897342/200476275-95f53c09-1063-41f3-a122-06b542bb9815.png">
-<img width="1229" alt="image" src="https://user-images.githubusercontent.com/114897342/200476300-a1dc4c1b-9c6d-4669-a496-05013fa50e0f.png">
-Formula: IF(repeated.current.OverallSDProcessStatus == "A","Open",IF(repeated.current.OverallSDProcessStatus == "B","In Process",IF(repeated.current.OverallSDProcessStatus == "C","Completed","")))
-
-
-10) Go to DATA VARIABLE and Click on Filer Condition
-<img width="1510" alt="image" src="https://user-images.githubusercontent.com/114897342/200476451-48d8fefa-3fae-4fbc-b3ed-1b551d3e992c.png">
-<img width="870" alt="image" src="https://user-images.githubusercontent.com/114897342/200476549-d25e2dae-05a2-4627-87b6-bd5bc11a03de.png">
-
-SAVE
-
-
-12) Now Click on "LAUNCH" in the Top Menu
-<img width="1501" alt="image" src="https://user-images.githubusercontent.com/114897342/200476826-750d59f4-ba33-4cb1-85a5-cbd88705c890.png">
-
-13) Click on "OPEN APP PREVIEW PORTAL"
-
-14) Enter Sales Org 
-<img width="1504" alt="image" src="https://user-images.githubusercontent.com/114897342/200476979-d64168b6-5c8b-408a-a83b-0bfd265e7fe4.png">
-
-15) Click on Service Orders
-<img width="1504" alt="image" src="https://user-images.githubusercontent.com/114897342/200477042-fd45a569-3a66-4198-a480-2257950e4637.png">
-
-16) Click on Customer Returns
-<img width="1504" alt="image" src="https://user-images.githubusercontent.com/114897342/200477119-54943b95-67f3-4532-bfff-de5fd9de26e6.png">
-
-
-
+![image](https://user-images.githubusercontent.com/117337025/201450309-3559a115-0996-4d04-8d5d-618ee79149a9.png) >br/>
 
 Continue to - [Exercise 2](../ex2/README.md)
