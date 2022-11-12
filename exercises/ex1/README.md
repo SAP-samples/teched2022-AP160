@@ -144,6 +144,30 @@ Click on "SAVE". <br/>
 Set preview values as "Purchase Order" and click "SAVE". <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201447219-ffbc4cd1-ac52-40da-8ce1-812a14877d66.png) <br/>
 
+29. Similarly, bind the "Customer Return Date" column data. Click on the data cell for "Customer Return Date" column. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201447437-5e8ec1ba-7ed0-485c-b385-e5e95d21a952.png) <br/>
+Click on "Label" icon in the "PROPERTIES". <br/>
+Click on "Formula". <br/>
+Click on "Formula" again. <br/>
+Enter the following Formula to show only the Return Date. <br/>
+```
+FORMAT_DATETIME_LOCAL(DATETIME(NUMBER(REPLACE_ALL(REPLACE_ALL(repeated.current.CustomerReturnDate, "/Date(",""), ")/",""))),"DD.MM.YYYY")
+```
+Click on "SAVE". <br/>
+Set preview values as "01.01.1970" and click "SAVE". <br/>
+
+30. Similarly, bind the "Overall Status" column data. Click on the data cell for "Overall Status" column. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201447499-ba1d0052-0f5c-478f-b2fb-f769a0029acb.png) <br/>
+Click on "Label" icon in the "PROPERTIES". <br/>
+Click on "Formula". <br/>
+Click on "Formula" again. <br/>
+Enter the following Formula to show Statusy. <br/>
+```
+IF(repeated.current.OverallSDProcessStatus == "A","Open",IF(repeated.current.OverallSDProcessStatus == "B","In Process",IF(repeated.current.OverallSDProcessStatus == "C","Completed","")))
+```
+Click on "SAVE". <br/>
+Set preview values as "Open" and click "SAVE". <br/>
+
 9) Now Bind each of these Five fields as below
 
 **Return Order:**
