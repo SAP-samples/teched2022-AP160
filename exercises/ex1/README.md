@@ -168,6 +168,67 @@ IF(repeated.current.OverallSDProcessStatus == "A","Open",IF(repeated.current.Ove
 Click on "SAVE". <br/>
 Set preview values as "Open" and click "SAVE". <br/>
 
+31. We need to install "Open URL" to be able to open a URL on click of the Return Column. <br/>
+Go to the "MARKETPLACE" and Search "Open URL". <br/>
+![image](https://user-images.githubusercontent.com/114897342/200475287-f256853f-821c-42ca-b0f4-77aa4e5e6edf.png) <br/>
+
+"INSTALL" the Open URL. <br/>
+![image](https://user-images.githubusercontent.com/114897342/200475360-79333214-9819-4e44-9ab4-fc9609a12ee1.png)
+
+32. We will configure the "Return" link button to open URL. <br/>
+Click on data cell of "Return" column. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201447829-2bbf67fb-9314-410c-9fc5-ab0afe424df3.png) <br/>
+
+Click on "Add logic to LINK BUTTON1". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201447875-e5a33272-8bde-40d4-9427-bd203282dc9d.png) <br/>
+
+Drag and Drop "Open URL" into the LOGIC. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201448061-686a931e-0be5-4f3e-975f-d2349ce634a4.png) <br/>
+Click on the "URL to open" icon in "PROPERTIES" and click on "Formula". <br/>
+Click on "Formula" again and enter the following formula. Please note that the double quotes also should be part of the formula. <br/>
+```
+"https://my300047.s4hana.ondemand.com/ui#ReturnsOrder-edit?sap-app-origin-hint=&/CustomerReturn/"+repeated.current.CustomerReturn+"/edit"
+```
+![image](https://user-images.githubusercontent.com/117337025/201448212-e047bc30-dca8-4627-bb30-4b920f55fe93.png) <br/>
+Click in "SAVE". <br/>
+Now, connect EVENT to Open URL <br/>
+![image](https://user-images.githubusercontent.com/117337025/201448455-aa961cdb-4547-484a-8a1b-5b7ca4f823cc.png) <br/>
+Collapse the Logic Editor. <br/>
+
+34. We will now assign user input to the app variable. <br/>
+Select the "Sales Ord" input field. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201449004-b8cf3c84-e893-45b6-8246-8b77a909eda4.png) <br/>
+Bind the "Value" to "SalesOrg" (Data and Variables -> App Variable -> SalesOrg -> SAVE). <br/>
+
+35. Change the "VIEW" to "VARIABLES" on top and navigate to "DATA VARIABLES".
+![image](https://user-images.githubusercontent.com/117337025/201448633-13a0a4d3-424f-45c1-b3fa-19ae2ded2c19.png) <br/>
+
+36. We will now add Filter to the Customer Returns Data Variable. <br/>
+Select "A_CustomerReturn1" and clck on "Filter Condition" in the right panel. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201448698-66b73db3-7815-49cf-906b-57ef527dfa31.png) <br/>
+Select "Object with properties". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201448743-8ebbad53-c35a-4974-8361-cee6a1684885.png) <br/>
+Click on "ADD CONDITION". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201448774-0057cc61-44d4-4920-be2a-7a749d637092.png) <br/>
+Select "Property" as "SalesOrganization" and "Compared Value" as "SalesOrg" (Data and Variables -> App Variable -> SalesOrg -> SAVE) .
+![image](https://user-images.githubusercontent.com/117337025/201448925-633c7842-c7e0-4115-bd42-eb842cd90e24.png) <br/>
+Click on "SAVE".
+
+37. Click on "SAVE" on top to save the project. <br/>
+![image](https://user-images.githubusercontent.com/117337025/201449164-1086fa10-8bd3-4d09-89f1-5d1660610b35.png) <br/>
+
+38. We are now ready to test the extension. Cick on "LAUNCH" in the top menu and click on "OPEN APP PREVIEW PORTAL". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201449206-cdcd940b-3302-4624-bdee-5b187d77ff46.png) <br/>
+
+39. The App launches in a new tab. Click on "Service Order and Customer Returns- AP160_Exercise". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201449275-c56bc118-3e83-49cd-b398-f8231b355982.png) <br/>
+Enter "1710" in the "Sales Org" input Field". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201449324-1cd1c853-93b5-4e6c-a2e6-a16650d7a5f1.png) <br/>
+Click on "Service Orders". <br/>
+![image](https://user-images.githubusercontent.com/117337025/201449350-1b46472b-b86b-45ce-af37-66fa06c5c04a.png) <br/>
+Click on "Customer Returns". <br/>
+
+
 9) Now Bind each of these Five fields as below
 
 **Return Order:**
