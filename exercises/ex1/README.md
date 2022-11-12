@@ -29,13 +29,13 @@ During the next steps, we will extend an existing AppGyver extension and add new
 If anyone is interested in developing from scratch, the following wiki [Developing new AppGyver Extensions](/develop-new-appgyver-extension.md) has detailed steps to create App, which in not in the scope of this session.
 
 1. From the AppGyver Lobby, click to open the project: Service Order and Customer Returns - AP160_Exercise. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201436976-a2007623-a6df-4223-bf1a-df6e1a476f2e.png) <br/>
+   ![image](https://user-images.githubusercontent.com/117337025/201436976-a2007623-a6df-4223-bf1a-df6e1a476f2e.png) <br/>
 
 2. Change device preview width to "Fullscreen". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201437247-dbb57483-1a38-41c7-9835-a9ae656b8200.png) <br/>
+   ![image](https://user-images.githubusercontent.com/117337025/201437247-dbb57483-1a38-41c7-9835-a9ae656b8200.png) <br/>
 
 3. Change the Page selection to "Empty Page". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201437519-9461abf7-8308-4edb-8bda-93c9c0bb97c4.png) <br/>
+   ![image](https://user-images.githubusercontent.com/117337025/201437519-9461abf7-8308-4edb-8bda-93c9c0bb97c4.png) <br/>
 
 4. We will now define Data Variable to get Customer Return data. <br/>
    - Click on "VARIABLES" to define Data Variables. <br/>
@@ -69,16 +69,16 @@ If anyone is interested in developing from scratch, the following wiki [Developi
    - Click "SAVE".
 
 7. Drag and Drop "Text" inside the Container and change content to "Customer Returns". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201440915-28c6a8e1-98a3-4a74-9ef3-f8d56217b460.png)
+   ![image](https://user-images.githubusercontent.com/117337025/201440915-28c6a8e1-98a3-4a74-9ef3-f8d56217b460.png)
 
 8. Drag and drop 2 "Row" inside the Container. The First Row will used to design the List Header and the Second Row will be used to design the List Content. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201441042-0080473d-42cf-485b-be89-0233e2bdd833.png)
+   ![image](https://user-images.githubusercontent.com/117337025/201441042-0080473d-42cf-485b-be89-0233e2bdd833.png)
 
 9. Set the number of Row Cells to 5 in Layout options of the both Rows. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201441234-046b1f49-47cc-43bb-b84b-ef4554eea803.png)
+   ![image](https://user-images.githubusercontent.com/117337025/201441234-046b1f49-47cc-43bb-b84b-ef4554eea803.png)
 
 10. For First Row , Drag and Drop "List Section Header" into each of the Cells and Rename as Shown Below <br/>
-![image](https://user-images.githubusercontent.com/117337025/201441793-9b381464-a84b-4c2f-8a89-057242dcaaee.png)
+    ![image](https://user-images.githubusercontent.com/117337025/201441793-9b381464-a84b-4c2f-8a89-057242dcaaee.png)
 
 11. We would need a Link Button for the exercise which is not part of the Core controls. 
     - Click on "MARKETPLACE". <br/>
@@ -112,132 +112,135 @@ If anyone is interested in developing from scratch, the following wiki [Developi
     - You would see the List Data now showing as Repeated Rows. <br/>
       ![image](https://user-images.githubusercontent.com/117337025/201446015-efc619c5-6a6e-48ae-b525-e4525402d6b5.png)
 
-14. We will bind the "Return Order" column data. Click on the data cell for "Return Order" column. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201446223-688fc59a-0c91-4dac-b9e5-76444c09b5e3.png) <br/> <br/>
-Click on "Label" icon in the "PROPERTIES". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201446283-23b92106-4c43-4077-a9b5-23b389073493.png) <br/> <br/>
-Click on "Data item in repeat". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201446328-6e4223e7-c23f-431f-8e88-4efcaace1817.png) <br/> <br/>
-Select "current". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201446358-4835119c-0e46-4894-b1e6-0c498d2d5da1.png) <br/> <br/>
-In the "Select repeat data property", scroll and select "CustomerReturn" under "current". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201446427-23eadd9f-b30a-4da8-a1cf-9f9ba04c5de1.png) <br/> <br/>
-Set preview values as "Return" and click "SAVE". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201446464-fb0eb0b8-7672-4568-8e7f-41eefa4253dc.png) <br/>
+14. We will bind the "Return Order" column data. 
+    - Click on the data cell for "Return Order" column. <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201446223-688fc59a-0c91-4dac-b9e5-76444c09b5e3.png)
+    - Click on "Label" icon in the "PROPERTIES". <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201446283-23b92106-4c43-4077-a9b5-23b389073493.png)
+    - Click on "Data item in repeat". <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201446328-6e4223e7-c23f-431f-8e88-4efcaace1817.png)
+    - Select "current". <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201446358-4835119c-0e46-4894-b1e6-0c498d2d5da1.png)
+    - In the "Select repeat data property", scroll and select "CustomerReturn" under "current". <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201446427-23eadd9f-b30a-4da8-a1cf-9f9ba04c5de1.png)
+    - Set preview values as "Return" and click "SAVE". <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201446464-fb0eb0b8-7672-4568-8e7f-41eefa4253dc.png)
 
-27. Similarly, bind the "Purchase Order" column data.  <br/>
-- Click on the data cell for "Purchase Order" column. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201446609-83406285-f6e5-476a-87b4-84833c336793.png)
-- Click on "Label" icon in the "PROPERTIES".
-- Click on "Data item in repeat".
-- Select "current".
-- In the "Select repeat data property", scroll and select "PurchaseOrderByCustomer" under "current".
-- Set preview values as "Purchase Order" and click "SAVE".
+15. Similarly, bind the "Purchase Order" column data. 
+    - Click on the data cell for "Purchase Order" column. <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201446609-83406285-f6e5-476a-87b4-84833c336793.png)
+    - Click on "Label" icon in the "PROPERTIES".
+    - Click on "Data item in repeat".
+    - Select "current".
+    - In the "Select repeat data property", scroll and select "PurchaseOrderByCustomer" under "current".
+    - Set preview values as "Purchase Order" and click "SAVE".
 
-28. We will now bind a Formula to the "Net Value" column data. Click on the data cell for "Net Value" column. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201446946-4d9530ba-89cb-4a3c-9687-66082508bdb0.png) <br/>
-Click on "Label" icon in the "PROPERTIES". <br/>
-Click on "Formula". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201447015-195122cc-4713-4972-b64a-05308bc405d3.png) <br/>
-Click on "Formula" again. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201447042-429da76e-47f6-45e0-a9db-08c313c883c1.png) <br/>
-Enter the following Formula to show value as Amount + Currency. <br/>
-```
-repeated.current.TotalNetAmount + " " + repeated.current.TransactionCurrency
-```
-![image](https://user-images.githubusercontent.com/117337025/201447153-834ecab8-3c4f-4752-b860-87f41ec15e82.png) <br/>
-Click on "SAVE". <br/>
-Set preview values as "Purchase Order" and click "SAVE". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201447219-ffbc4cd1-ac52-40da-8ce1-812a14877d66.png) <br/>
+16. We will now bind a Formula to the "Net Value" column data. 
+    - Click on the data cell for "Net Value" column.
+      ![image](https://user-images.githubusercontent.com/117337025/201446946-4d9530ba-89cb-4a3c-9687-66082508bdb0.png)
+    - Click on "Label" icon in the "PROPERTIES".
+    - Click on "Formula". <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201447015-195122cc-4713-4972-b64a-05308bc405d3.png)
+    - Click on "Formula" again. <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201447042-429da76e-47f6-45e0-a9db-08c313c883c1.png)
+    - Enter the following Formula to show value as Amount + Currency. <br/>
+      ```
+      repeated.current.TotalNetAmount + " " + repeated.current.TransactionCurrency
+      ```
+      ![image](https://user-images.githubusercontent.com/117337025/201447153-834ecab8-3c4f-4752-b860-87f41ec15e82.png)
+    - Click on "SAVE".
+    - Set preview values as "Purchase Order" and click "SAVE". <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201447219-ffbc4cd1-ac52-40da-8ce1-812a14877d66.png)
 
-29. Similarly, bind the "Customer Return Date" column data. Click on the data cell for "Customer Return Date" column. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201447437-5e8ec1ba-7ed0-485c-b385-e5e95d21a952.png) <br/>
-Click on "Label" icon in the "PROPERTIES". <br/>
-Click on "Formula". <br/>
-Click on "Formula" again. <br/>
-Enter the following Formula to show only the Return Date. <br/>
-```
-FORMAT_DATETIME_LOCAL(DATETIME(NUMBER(REPLACE_ALL(REPLACE_ALL(repeated.current.CustomerReturnDate, "/Date(",""), ")/",""))),"DD.MM.YYYY")
-```
-Click on "SAVE". <br/>
-Set preview values as "01.01.1970" and click "SAVE". <br/>
+17. Similarly, bind the "Customer Return Date" column data. 
+    - Click on the data cell for "Customer Return Date" column. <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201447437-5e8ec1ba-7ed0-485c-b385-e5e95d21a952.png)
+    - Click on "Label" icon in the "PROPERTIES".
+    - Click on "Formula".
+    - Click on "Formula" again.
+    - Enter the following Formula to show only the Return Date. <br/>
+      ```
+      FORMAT_DATETIME_LOCAL(DATETIME(NUMBER(REPLACE_ALL(REPLACE_ALL(repeated.current.CustomerReturnDate, "/Date(",""), ")/",""))),"DD.MM.YYYY")
+      ```
+    - Click on "SAVE".
+    - Set preview values as "01.01.1970" and click "SAVE".
 
-30. Similarly, bind the "Overall Status" column data. Click on the data cell for "Overall Status" column. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201447499-ba1d0052-0f5c-478f-b2fb-f769a0029acb.png) <br/>
-Click on "Label" icon in the "PROPERTIES". <br/>
-Click on "Formula". <br/>
-Click on "Formula" again. <br/>
-Enter the following Formula to show Statusy. <br/>
-```
-IF(repeated.current.OverallSDProcessStatus == "A","Open",IF(repeated.current.OverallSDProcessStatus == "B","In Process",IF(repeated.current.OverallSDProcessStatus == "C","Completed","")))
-```
-Click on "SAVE". <br/>
-Set preview values as "Open" and click "SAVE". <br/>
+18. Similarly, bind the "Overall Status" column data. 
+    - Click on the data cell for "Overall Status" column. <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201447499-ba1d0052-0f5c-478f-b2fb-f769a0029acb.png) <br/>
+    - Click on "Label" icon in the "PROPERTIES". <br/>
+    - Click on "Formula". <br/>
+    - Click on "Formula" again. <br/>
+    - Enter the following Formula to show Statusy. <br/>
+      ```
+      IF(repeated.current.OverallSDProcessStatus == "A","Open",IF(repeated.current.OverallSDProcessStatus == "B","In Process",IF(repeated.current.OverallSDProcessStatus == "C","Completed","")))
+      ```
+    - Click on "SAVE". <br/>
+    - Set preview values as "Open" and click "SAVE".
 
-31. We need to install "Open URL" to be able to open a URL on click of the Return Column. <br/>
-Go to the "MARKETPLACE" and Search "Open URL". <br/>
-![image](https://user-images.githubusercontent.com/114897342/200475287-f256853f-821c-42ca-b0f4-77aa4e5e6edf.png) <br/>
+19. We need to install "Open URL" to be able to open a URL on click of the Return Column.
+    - Go to the "MARKETPLACE" and Search "Open URL". <br/>
+      ![image](https://user-images.githubusercontent.com/114897342/200475287-f256853f-821c-42ca-b0f4-77aa4e5e6edf.png)
+    - "INSTALL" the Open URL. <br/>
+      ![image](https://user-images.githubusercontent.com/114897342/200475360-79333214-9819-4e44-9ab4-fc9609a12ee1.png)
 
-"INSTALL" the Open URL. <br/>
-![image](https://user-images.githubusercontent.com/114897342/200475360-79333214-9819-4e44-9ab4-fc9609a12ee1.png)
+20. We will configure the "Return" link button to open URL.
+    - Click on data cell of "Return" column. <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201447829-2bbf67fb-9314-410c-9fc5-ab0afe424df3.png)
+    - Click on "Add logic to LINK BUTTON1". <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201447875-e5a33272-8bde-40d4-9427-bd203282dc9d.png)
+    - Drag and Drop "Open URL" into the LOGIC. <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201448061-686a931e-0be5-4f3e-975f-d2349ce634a4.png)
+    - Click on the "URL to open" icon in "PROPERTIES" and click on "Formula".
+    - Click on "Formula" again and enter the following formula. Please note that the double quotes also should be part of the formula.
+      ```
+      "https://my300047.s4hana.ondemand.com/ui#ReturnsOrder-edit?sap-app-origin-hint=&/CustomerReturn/"+repeated.current.CustomerReturn+"/edit"
+      ```
+      ![image](https://user-images.githubusercontent.com/117337025/201448212-e047bc30-dca8-4627-bb30-4b920f55fe93.png)
+    - Click in "SAVE".
+    - Now, connect EVENT to Open URL <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201448455-aa961cdb-4547-484a-8a1b-5b7ca4f823cc.png)
+    - Collapse the Logic Editor.
 
-32. We will configure the "Return" link button to open URL. <br/>
-Click on data cell of "Return" column. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201447829-2bbf67fb-9314-410c-9fc5-ab0afe424df3.png) <br/>
+21. We will now assign user input to the app variable.
+    - Select the "Sales Org" input field. <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201449004-b8cf3c84-e893-45b6-8246-8b77a909eda4.png)
+    - Bind the "Value" to "SalesOrg" (Data and Variables -> App Variable -> SalesOrg -> SAVE).
 
-Click on "Add logic to LINK BUTTON1". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201447875-e5a33272-8bde-40d4-9427-bd203282dc9d.png) <br/>
+22. Now, let's rename the "Empty Page". 
+    - Click on the "PAGE LAYOUT" in the "TREE".<br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201451344-35b6d2f3-23b6-43cb-82e4-e97c47bf367a.png) <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201451246-276a901a-3887-444a-b689-2381ceb47b21.png)
+    - Enter the Page Name as "S/4 HANA Transactions Search".
 
-Drag and Drop "Open URL" into the LOGIC. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201448061-686a931e-0be5-4f3e-975f-d2349ce634a4.png) <br/>
-Click on the "URL to open" icon in "PROPERTIES" and click on "Formula". <br/>
-Click on "Formula" again and enter the following formula. Please note that the double quotes also should be part of the formula. <br/>
-```
-"https://my300047.s4hana.ondemand.com/ui#ReturnsOrder-edit?sap-app-origin-hint=&/CustomerReturn/"+repeated.current.CustomerReturn+"/edit"
-```
-![image](https://user-images.githubusercontent.com/117337025/201448212-e047bc30-dca8-4627-bb30-4b920f55fe93.png) <br/>
-Click in "SAVE". <br/>
-Now, connect EVENT to Open URL <br/>
-![image](https://user-images.githubusercontent.com/117337025/201448455-aa961cdb-4547-484a-8a1b-5b7ca4f823cc.png) <br/>
-Collapse the Logic Editor. <br/>
+23. Change the "VIEW" to "VARIABLES" on top and navigate to "DATA VARIABLES".
+    ![image](https://user-images.githubusercontent.com/117337025/201448633-13a0a4d3-424f-45c1-b3fa-19ae2ded2c19.png)
 
-34. We will now assign user input to the app variable. <br/>
-Select the "Sales Org" input field. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201449004-b8cf3c84-e893-45b6-8246-8b77a909eda4.png) <br/>
-Bind the "Value" to "SalesOrg" (Data and Variables -> App Variable -> SalesOrg -> SAVE). <br/>
+24. We will now add Filter to the Customer Returns Data Variable.
+    - Select "A_CustomerReturn1" and clck on "Filter Condition" in the right panel. <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201448698-66b73db3-7815-49cf-906b-57ef527dfa31.png)
+    - Select "Object with properties". <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201448743-8ebbad53-c35a-4974-8361-cee6a1684885.png)
+    - Click on "ADD CONDITION". <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201448774-0057cc61-44d4-4920-be2a-7a749d637092.png)
+    - Select "Property" as "SalesOrganization" and "Compared Value" as "SalesOrg" (Data and Variables -> App Variable -> SalesOrg -> SAVE). <br/>
+      ![image](https://user-images.githubusercontent.com/117337025/201448925-633c7842-c7e0-4115-bd42-eb842cd90e24.png)
+    - Click on "SAVE".
 
-35. Now, let's rename the "Empty Page". Click on the "PAGE LAYOUT" in the "TREE".<br/>
-![image](https://user-images.githubusercontent.com/117337025/201451344-35b6d2f3-23b6-43cb-82e4-e97c47bf367a.png) <br/>
-![image](https://user-images.githubusercontent.com/117337025/201451246-276a901a-3887-444a-b689-2381ceb47b21.png) <br/>
-Enter the Page Name as "S/4 HANA Transactions Search".
+25. Click on "SAVE" on top to save the project. <br/>
+    ![image](https://user-images.githubusercontent.com/117337025/201449164-1086fa10-8bd3-4d09-89f1-5d1660610b35.png)
 
-36. Change the "VIEW" to "VARIABLES" on top and navigate to "DATA VARIABLES".
-![image](https://user-images.githubusercontent.com/117337025/201448633-13a0a4d3-424f-45c1-b3fa-19ae2ded2c19.png) <br/>
+## Testing the Extension
+We are now ready to test the extension. 
+- Click on "LAUNCH" in the top menu and click on "OPEN APP PREVIEW PORTAL". <br/>
+  ![image](https://user-images.githubusercontent.com/117337025/201449206-cdcd940b-3302-4624-bdee-5b187d77ff46.png)
+- The App launches in a new tab. Click on "Service Order and Customer Returns- AP160_Exercise". <br/>
+  ![image](https://user-images.githubusercontent.com/117337025/201449275-c56bc118-3e83-49cd-b398-f8231b355982.png)
+- Enter "1710" in the "Sales Org" input Field". <br/>
+  ![image](https://user-images.githubusercontent.com/117337025/201449324-1cd1c853-93b5-4e6c-a2e6-a16650d7a5f1.png)
+- Click on "Service Orders". <br/>
+  ![image](https://user-images.githubusercontent.com/117337025/201449350-1b46472b-b86b-45ce-af37-66fa06c5c04a.png)
+- Click on "Customer Returns". <br/>
+  ![image](https://user-images.githubusercontent.com/117337025/201450309-3559a115-0996-4d04-8d5d-618ee79149a9.png)
 
-37. We will now add Filter to the Customer Returns Data Variable. <br/>
-Select "A_CustomerReturn1" and clck on "Filter Condition" in the right panel. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201448698-66b73db3-7815-49cf-906b-57ef527dfa31.png) <br/>
-Select "Object with properties". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201448743-8ebbad53-c35a-4974-8361-cee6a1684885.png) <br/>
-Click on "ADD CONDITION". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201448774-0057cc61-44d4-4920-be2a-7a749d637092.png) <br/>
-Select "Property" as "SalesOrganization" and "Compared Value" as "SalesOrg" (Data and Variables -> App Variable -> SalesOrg -> SAVE) .
-![image](https://user-images.githubusercontent.com/117337025/201448925-633c7842-c7e0-4115-bd42-eb842cd90e24.png) <br/>
-Click on "SAVE".
-
-38. Click on "SAVE" on top to save the project. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201449164-1086fa10-8bd3-4d09-89f1-5d1660610b35.png) <br/>
-
-39. We are now ready to test the extension. Cick on "LAUNCH" in the top menu and click on "OPEN APP PREVIEW PORTAL". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201449206-cdcd940b-3302-4624-bdee-5b187d77ff46.png) <br/>
-
-40. The App launches in a new tab. Click on "Service Order and Customer Returns- AP160_Exercise". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201449275-c56bc118-3e83-49cd-b398-f8231b355982.png) <br/>
-Enter "1710" in the "Sales Org" input Field". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201449324-1cd1c853-93b5-4e6c-a2e6-a16650d7a5f1.png) <br/>
-Click on "Service Orders". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201449350-1b46472b-b86b-45ce-af37-66fa06c5c04a.png) <br/>
-Click on "Customer Returns". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201450309-3559a115-0996-4d04-8d5d-618ee79149a9.png) <br/>
-
-Continue to - [Exercise 2](../ex2/README.md)
+## Continue to - [Exercise 2](../ex2/README.md)
