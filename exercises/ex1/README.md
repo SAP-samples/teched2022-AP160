@@ -239,6 +239,6 @@ Enter "1710" in the "Sales Org" input Field". <br/>
 Click on "Service Orders". <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201449350-1b46472b-b86b-45ce-af37-66fa06c5c04a.png) <br/>
 Click on "Customer Returns". <br/>
-![image](https://user-images.githubusercontent.com/117337025/201450309-3559a115-0996-4d04-8d5d-618ee79149a9.png) >br/>
+![image](https://user-images.githubusercontent.com/117337025/201450309-3559a115-0996-4d04-8d5d-618ee79149a9.png) <br/>
 
 Continue to - [Exercise 2](../ex2/README.md)
