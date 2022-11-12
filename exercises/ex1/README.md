@@ -26,7 +26,7 @@ During the next steps, we will extend an existing AppGyver extension and add new
 - Service Order and Customer Returns - AP160_Exercise (Project to be used for this exercise)
 - Service Order and Customer Returns (Completed Project)
 
-If anyone is interested in developing from scratch, the following wiki [Developing new AppGyver Extensions](/develop-new-appgyver-extension.md) has detailed steps to create App, which in not in the scope of this session.
+If anyone is interested in developing from scratch, the following wiki [Developing new AppGyver Extensions](../ex1/develop-new-appgyver-extension.md) has detailed steps to create App, which in not in the scope of this session.
 
 1. From the AppGyver Lobby, click to open the project: Service Order and Customer Returns - AP160_Exercise. <br/>
    ![image](https://user-images.githubusercontent.com/117337025/201436976-a2007623-a6df-4223-bf1a-df6e1a476f2e.png) <br/>
