@@ -32,10 +32,6 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [Exercise 1 - Design and Develop extension in AppGyver](exercises/ex1/)
 - [Exercise 2 - Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2](exercises/ex2/)
 
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
-
 ## How to obtain support
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
