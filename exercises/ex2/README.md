@@ -32,7 +32,7 @@ During the next steps, we will embed a pre-delivered AppGyver Mashup in SAP Sale
 5. A new tab opens, displaying the Agent Desktop. <br/>
    ![image](https://user-images.githubusercontent.com/84871522/199808932-a71a79d0-cc83-4eee-ad6f-8910a99a008a.png)
 
-6. Search the Account and Click on "Confirm" button for the account name. <br/>
+6. Search for the Account "Delbont" and Click on "Confirm" button for the account name. <br/>
    ![image](https://user-images.githubusercontent.com/84871522/199809064-20e2ce92-91fb-4990-93bf-8a7e85d88b34.png)
 
 7. A new tab opens, displaying the "Customer Hub". <br/>
