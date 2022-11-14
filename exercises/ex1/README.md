@@ -74,8 +74,8 @@ If anyone is interested in developing from scratch, the following wiki [Developi
 8. Drag and drop 2 "Row" inside the Container. The First Row will used to design the List Header and the Second Row will be used to design the List Content. <br/>
    ![image](https://user-images.githubusercontent.com/117337025/201441042-0080473d-42cf-485b-be89-0233e2bdd833.png)
 
-9. Set the number of Row Cells to 5 in Layout options of the both Rows. <br/>
-   ![image](https://user-images.githubusercontent.com/117337025/201441234-046b1f49-47cc-43bb-b84b-ef4554eea803.png)
+9. Set the number of Row Cells to 5 in Layout options of the both Rows and set the cell width to "1:5" as shown. <br/>
+   ![image](https://user-images.githubusercontent.com/117337025/201590127-7c17b75a-b011-442c-a879-924f02e071bc.png)
 
 10. For First Row , Drag and Drop "List Section Header" into each of the Cells and Rename as Shown Below <br/>
     ![image](https://user-images.githubusercontent.com/117337025/201441793-9b381464-a84b-4c2f-8a89-057242dcaaee.png)
