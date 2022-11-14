@@ -1,5 +1,5 @@
 # Embed a pre-delivered Mashup in SAP Sales and Service Cloud Version 2
-The following exercise will provide detailed steps to embed a AppGyver Mashup in SAP Sales and Service Cloud Version 2.
+The following exercise will provide detailed steps to embed a SAP Build Apps Mashup in SAP Sales and Service Cloud Version 2.
 
 ## Demo Tenants
 * [my1000112.de1.demo.crm.cloud.sap](https://my1000112.de1.demo.crm.cloud.sap/)
@@ -7,7 +7,7 @@ The following exercise will provide detailed steps to embed a AppGyver Mashup in
 * [my1000115.de1.demo.crm.cloud.sap](https://my1000115.de1.demo.crm.cloud.sap/)
 * [my1000116.de1.demo.crm.cloud.sap](https://my1000116.de1.demo.crm.cloud.sap/)
 
-## Authenticate and accessing AppGyver in SAP Sales and Service Cloud Version 2 
+## Authenticate and accessing SAP Build Apps in SAP Sales and Service Cloud Version 2 
 1. Access the Tenant assigned and Login using SSO. <br/>
    ![image](https://user-images.githubusercontent.com/117337025/201430903-b1148253-be20-4ae3-9bb0-f71647c3402f.png)
 
@@ -15,7 +15,7 @@ The following exercise will provide detailed steps to embed a AppGyver Mashup in
    ![image](https://user-images.githubusercontent.com/117337025/201431214-b8eed869-9442-4850-b9cd-e54424dc41f2.png)
 
 ## Embed a pre-delivered Mashup
-During the next steps, we will embed a pre-delivered AppGyver Mashup in SAP Sales and Service Cloud Version 2.
+During the next steps, we will embed a pre-delivered SAP Build Apps Mashup in SAP Sales and Service Cloud Version 2.
 
 1. Navigate to Settings. <br/>
    ![image](https://user-images.githubusercontent.com/84871522/199808023-b1958666-8c09-4317-b991-89e3ae87a4cb.png)
