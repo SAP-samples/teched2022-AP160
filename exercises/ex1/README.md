@@ -1,5 +1,5 @@
-# Design and Develop extension in AppGyver
-The following exercise will provide detailed steps to develop a sample extension in AppGyver.
+# Design and Develop extension in SAP Build Apps
+The following exercise will provide detailed steps to develop a sample extension in SAP Build Apps.
 
 ## Demo Tenants
 * [my1000112.de1.demo.crm.cloud.sap](https://my1000112.de1.demo.crm.cloud.sap/)
@@ -7,28 +7,28 @@ The following exercise will provide detailed steps to develop a sample extension
 * [my1000115.de1.demo.crm.cloud.sap](https://my1000115.de1.demo.crm.cloud.sap/)
 * [my1000116.de1.demo.crm.cloud.sap](https://my1000116.de1.demo.crm.cloud.sap/)
 
-## Authenticate and accessing AppGyver in SAP Sales and Service Cloud Version 2 
+## Authenticate and accessing SAP Build Apps in SAP Sales and Service Cloud Version 2 
 1. Access the Tenant assigned and Login using SSO. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201430903-b1148253-be20-4ae3-9bb0-f71647c3402f.png) <br/>
 
 2. Use the credentials assigned to Login to SAP Sales and Service Cloud Version 2. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201431214-b8eed869-9442-4850-b9cd-e54424dc41f2.png) <br/>
 
-3. Navigate to the app switcher, and choose AppGyver. <br/>
+3. Navigate to the app switcher, and choose SAP Build Apps. <br/>
 ![196336426-951f9368-cffa-4fc0-b772-32e13fbd8616](https://user-images.githubusercontent.com/114897342/196701140-4f597e67-2f8c-4221-9483-8b2547a4f60f.gif) <br/>
 
-4. A new browser tab opens, displaying the AppGyver lobby. <br/>
+4. A new browser tab opens, displaying the SAP Build Apps lobby. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201432280-6b9517f0-9436-4754-9b9a-185a82654347.png) <br/>
 
-## Developing Sample AppGyver Extension
-During the next steps, we will extend an existing AppGyver extension and add new list to display and access Customer Returns. When you access the AppGyver lobby, you will already see 2 pre-delivered Projects. We have already deployed these projects in the interest of time. <br/>
+## Developing Sample SAP Build Apps Extension
+During the next steps, we will extend an existing SAP Build Apps extension and add new list to display and access Customer Returns. When you access the SAP Build Apps lobby, you will already see 2 pre-delivered Projects. We have already deployed these projects in the interest of time. <br/>
 
 - Service Order and Customer Returns - AP160_Exercise (Project to be used for this exercise)
 - Service Order and Customer Returns (Completed Project)
 
-If anyone is interested in developing from scratch, the following wiki [Developing new AppGyver Extensions](../ex1/develop-new-appgyver-extension.md) has detailed steps to create App, which in not in the scope of this session.
+If anyone is interested in developing from scratch, the following wiki [Developing new SAP Build Apps Extensions](../ex1/develop-new-appgyver-extension.md) has detailed steps to create App, which in not in the scope of this session.
 
-1. From the AppGyver Lobby, click to open the project: Service Order and Customer Returns - AP160_Exercise. <br/>
+1. From the SAP Build Apps Lobby, click to open the project: Service Order and Customer Returns - AP160_Exercise. <br/>
    ![image](https://user-images.githubusercontent.com/117337025/201436976-a2007623-a6df-4223-bf1a-df6e1a476f2e.png) <br/>
 
 2. Change device preview width to "Fullscreen". <br/>
