@@ -241,6 +241,6 @@ We are now ready to test the extension.
 - Click on "Service Orders". <br/>
   ![image](https://user-images.githubusercontent.com/117337025/201449350-1b46472b-b86b-45ce-af37-66fa06c5c04a.png)
 - Click on "Customer Returns". <br/>
-  ![image](https://user-images.githubusercontent.com/117337025/201450309-3559a115-0996-4d04-8d5d-618ee79149a9.png)
+  ![image](https://user-images.githubusercontent.com/117337025/201594002-39f8c35d-9f08-4cf4-ab52-3094b4c7c8c6.png)
 
 ## Continue to - [Exercise 2](../ex2/README.md)
