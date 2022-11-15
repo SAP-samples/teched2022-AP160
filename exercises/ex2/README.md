@@ -94,3 +94,5 @@ During the next steps, we will embed a pre-delivered SAP Build Apps Mashup in SA
 
 26. Now, whenever you click on the new button we added in step 14 then the new tab which we added in step 19 will be displayed along with the selected Mashup. Your Mashup is embedded!!!
     ![image](https://user-images.githubusercontent.com/84871522/199814158-3d88d57c-6132-4e03-a1aa-39b9fb3f7505.png)
+    
+For event mesh configuration, refer to [Event Mesh Configuration](https://help.sap.com/docs/CX_NG_SVC/56436b4e8fa84dc8b4408c7795a012c4/c5538b0670d44d53ad68035391c435fb.html?locale=en-US)
