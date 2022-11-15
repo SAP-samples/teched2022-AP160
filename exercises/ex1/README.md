@@ -9,19 +9,16 @@ The following exercise will provide detailed steps to develop a sample extension
 
 ## Authenticate and accessing SAP Build Apps in SAP Sales and Service Cloud Version 2 
 1. Access the Tenant assigned and Login using SSO. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201430903-b1148253-be20-4ae3-9bb0-f71647c3402f.png) <br/>
+   ![image](https://user-images.githubusercontent.com/117337025/201430903-b1148253-be20-4ae3-9bb0-f71647c3402f.png) <br/>
 
 2. Use the credentials assigned to Login to SAP Sales and Service Cloud Version 2. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201431214-b8eed869-9442-4850-b9cd-e54424dc41f2.png) <br/>
+   ![image](https://user-images.githubusercontent.com/117337025/201431214-b8eed869-9442-4850-b9cd-e54424dc41f2.png) <br/>
 
 3. Navigate to the app switcher, and choose SAP Build Apps (formerly known as SAP AppGyver). <br/>
-![196336426-951f9368-cffa-4fc0-b772-32e13fbd8616](https://user-images.githubusercontent.com/114897342/196701140-4f597e67-2f8c-4221-9483-8b2547a4f60f.gif) <br/>
+   ![196336426-951f9368-cffa-4fc0-b772-32e13fbd8616](https://user-images.githubusercontent.com/114897342/196701140-4f597e67-2f8c-4221-9483-8b2547a4f60f.gif) <br/>
 
 4. A new browser tab opens, displaying the SAP Build Apps lobby. <br/>
-![image](https://github.com/SAP-samples/teched2022-AP160/blob/main/exercises/ex1/images/build_lobby.png) <br/>
-
-5. A new SAP Build Apps lobby will show the type of Application to build. <br/>
-![image](https://github.com/SAP-samples/teched2022-AP160/blob/main/exercises/ex1/images/type.png) <br/>
+   ![image](https://user-images.githubusercontent.com/117337025/201977916-abf339d9-a936-4a40-897e-4bb661ea01ab.png) <br/>
 
 ## Developing Sample SAP Build Apps Extension
 During the next steps, we will extend an existing SAP Build Apps extension and add new list to display and access Customer Returns. When you access the SAP Build Apps lobby, you will already see 2 pre-delivered Projects. We have already deployed these projects in the interest of time. <br/>
