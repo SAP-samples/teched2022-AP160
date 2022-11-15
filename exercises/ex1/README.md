@@ -14,11 +14,14 @@ The following exercise will provide detailed steps to develop a sample extension
 2. Use the credentials assigned to Login to SAP Sales and Service Cloud Version 2. <br/>
 ![image](https://user-images.githubusercontent.com/117337025/201431214-b8eed869-9442-4850-b9cd-e54424dc41f2.png) <br/>
 
-3. Navigate to the app switcher, and choose SAP Build Apps. <br/>
+3. Navigate to the app switcher, and choose SAP Build Apps (formerly known as SAP AppGyver). <br/>
 ![196336426-951f9368-cffa-4fc0-b772-32e13fbd8616](https://user-images.githubusercontent.com/114897342/196701140-4f597e67-2f8c-4221-9483-8b2547a4f60f.gif) <br/>
 
 4. A new browser tab opens, displaying the SAP Build Apps lobby. <br/>
-![image](https://user-images.githubusercontent.com/117337025/201432280-6b9517f0-9436-4754-9b9a-185a82654347.png) <br/>
+![image](https://github.com/SAP-samples/teched2022-AP160/blob/main/exercises/ex1/images/build_lobby.png) <br/>
+
+5. A new SAP Build Apps lobby will show the type of Application to build. <br/>
+![image](https://github.com/SAP-samples/teched2022-AP160/blob/main/exercises/ex1/images/type.png) <br/>
 
 ## Developing Sample SAP Build Apps Extension
 During the next steps, we will extend an existing SAP Build Apps extension and add new list to display and access Customer Returns. When you access the SAP Build Apps lobby, you will already see 2 pre-delivered Projects. We have already deployed these projects in the interest of time. <br/>
