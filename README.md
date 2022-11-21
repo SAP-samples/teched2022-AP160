@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2022-AP160)](https://api.reuse.software/info/github.com/SAP-samples/teched2022-AP160)
+
 # AP160 - One Office in Customer Sales Activities and Service Engagements
 
 ## Description
